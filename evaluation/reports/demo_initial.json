@@ -1,0 +1,788 @@
+{
+  "created_at": "2026-10-01T10:16:30.681612+00:00",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "index": {
+    "ready": true,
+    "version": "faac7d4df3034bafae61db8e52553481",
+    "chunks": 139,
+    "reason": null
+  },
+  "mode": "live_rag",
+  "results": [
+    {
+      "id": "demo_pragati_benefits",
+      "question": "What are the benefits of Pragati?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "The Pragati Scholarship Scheme provides an annual lump sum amount of INR 50,000 for both technical degree and technical diploma courses. \n\nFor technical degree students, the maximum duration is 4 years for first-year admissions and 3 years for second-year lateral entry. \n\nFor technical diploma students, the maximum duration is 3 years for first-year admissions and 2 years for second-year lateral entry. \n\nThe funds can be used for college fees, computers, stationery, books, equipment, and software.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"3 years\" maximum duration second year lateral entry: \"2 years\" purpose: \"College fee\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_pragati_benefits",
+        "session_id": "9aa10b25-b098-4651-8f70-5a98f0da7d79"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 904,
+          "output_tokens": 373,
+          "status": "SUCCESS",
+          "latency_ms": 4245.936699997401
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 904,
+      "llm_output_tokens": 373,
+      "latency_ms": 17859.354
+    },
+    {
+      "id": "demo_amount",
+      "question": "How much does Pragati provide?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "Both the Pragati Scholarship Scheme for Girl Students (Technical Degree) and the Pragati Scholarship Scheme for Girl Students (Technical Diploma) provide an annual amount of INR 50,000 paid as a lump sum. This funding can be used for college fees or a fee, computer, stationery, books, equipment, and software.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000"
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_amount",
+        "session_id": "7656036a-3394-435a-998e-c641914295e4"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 903,
+          "output_tokens": 203,
+          "status": "SUCCESS",
+          "latency_ms": 1748.9175000082469
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 903,
+      "llm_output_tokens": 203,
+      "latency_ms": 2579.72
+    },
+    {
+      "id": "demo_saksham_documents",
+      "question": "What documents are required for Saksham?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "To apply for the AICTE Saksham Scholarship Scheme for Specially-Abled Students (Degree), you are required to provide the following documents: Aadhaar, your SSC/10th certificate and mark sheet, your HSC/12th certificate and mark sheet for the degree level, and a diploma certificate and mark sheet if applying via lateral entry for the degree level. You also need a category certificate if applicable, a Study/Bonafide Certificate (Appendix-I), an Annual Family Income Certificate (Appendix-II), and a Promotion Certificate for renewal (Appendix-III). Please verify these requirements officially before submitting your application.",
+        "sources": [
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:documents_required:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "\"Aadhaar\" \"SSC/10th certificate and mark sheet\" \"HSC/12th certificate and mark sheet (for degree level)\" \"ITI certificate and mark sheet (for lateral entry for diploma level, if applicable)\" \"Diploma certificate and mark sheet (for lateral entry for degree level, if applicable)\" \"Category Certificate, if applicable\" \"Study/Bonafide Certificate (Appendix-I)\" \"Annual Family Income Certificate (Appendix-II)\" \"Promotion Certificate for renewal (Appendix-III)\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_saksham_documents",
+        "session_id": "8b8cb36f-b377-4803-8bd4-d1e01cc3d8d2"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 774,
+          "output_tokens": 310,
+          "status": "SUCCESS",
+          "latency_ms": 1792.3779000120703
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 774,
+      "llm_output_tokens": 310,
+      "latency_ms": 3314.158
+    },
+    {
+      "id": "demo_yasasvi_eligibility",
+      "question": "Who is eligible for the PM-YASASVI scheme?",
+      "passed": false,
+      "checks": {
+        "status": false,
+        "expected_sources": false,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": false,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "The generated answer could not be verified against the scholarship information. Please try again.",
+        "sources": [],
+        "status": "error",
+        "error": {
+          "code": "LLM_RESPONSE_REJECTED",
+          "message": "The generated answer could not be verified against the scholarship information. Please try again."
+        },
+        "request_id": "acceptance-demo_yasasvi_eligibility",
+        "session_id": "a7bd4631-5bb1-4a12-b392-1ca1ec8aad9b"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 1872,
+          "output_tokens": 306,
+          "status": "SUCCESS",
+          "latency_ms": 2036.0023999965051
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 1202,
+          "output_tokens": 102,
+          "status": "FAILED",
+          "latency_ms": 1511.3262000086252
+        },
+        {
+          "phase": "generation",
+          "input_tokens": 1987,
+          "output_tokens": 312,
+          "status": "SUCCESS",
+          "latency_ms": 2564.9547000066377
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 1208,
+          "output_tokens": 102,
+          "status": "FAILED",
+          "latency_ms": 1904.5828999951482
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 6269,
+      "llm_output_tokens": 822,
+      "latency_ms": 11702.018
+    },
+    {
+      "id": "demo_pragati_apply",
+      "question": "How do I apply for Pragati?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "To apply for the Pragati Scholarship Scheme for Girl Students (for both technical degree and technical diploma courses), you can apply online through the National Scholarship Portal (NSP). Once you have applied, your payment status can be tracked through PFMS. Please verify official deadlines and requirements on the portal.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_pragati_apply",
+        "session_id": "13806af8-8a03-42a9-91ff-6fe6bb1dd9f1"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 804,
+          "output_tokens": 224,
+          "status": "SUCCESS",
+          "latency_ms": 1725.7640999887371
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 804,
+      "llm_output_tokens": 224,
+      "latency_ms": 2282.987
+    },
+    {
+      "id": "demo_apply_followup",
+      "question": "How can I apply for the scholarship?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "To apply for the Pragati Scholarship Scheme for Girl Students (both technical diploma and technical degree), follow these steps:\n\n1. Visit the National Scholarship Portal (NSP) online.\n2. Submit your application through the portal.\n\nYou can also track your payment status through PFMS after applying. Please verify current deadlines and specific document requirements officially.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_apply_followup",
+        "session_id": "1df13b8b-ed62-40eb-95f1-3f2ec6661515"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 963,
+          "output_tokens": 239,
+          "status": "SUCCESS",
+          "latency_ms": 2301.451299994369
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 963,
+      "llm_output_tokens": 239,
+      "latency_ms": 3125.067
+    },
+    {
+      "id": "demo_girls",
+      "question": "Which schemes are available for girl students?",
+      "passed": false,
+      "checks": {
+        "status": false,
+        "expected_sources": true,
+        "source_count": false,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": false,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "The generated answer could not be verified against the scholarship information. Please try again.",
+        "sources": [],
+        "status": "error",
+        "error": {
+          "code": "LLM_RESPONSE_REJECTED",
+          "message": "The generated answer could not be verified against the scholarship information. Please try again."
+        },
+        "request_id": "acceptance-demo_girls",
+        "session_id": "48abc7eb-7c6a-4177-a075-033d1de42ba2"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 2817,
+          "output_tokens": 581,
+          "status": "SUCCESS",
+          "latency_ms": 2988.4871000103885
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 1942,
+          "output_tokens": 24,
+          "status": "FAILED",
+          "latency_ms": 1832.447199994931
+        },
+        {
+          "phase": "generation",
+          "input_tokens": 2988,
+          "output_tokens": 676,
+          "status": "SUCCESS",
+          "latency_ms": 2930.7540000008885
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 2028,
+          "output_tokens": 224,
+          "status": "FAILED",
+          "latency_ms": 2359.68110000249
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 9775,
+      "llm_output_tokens": 1505,
+      "latency_ms": 13575.288
+    },
+    {
+      "id": "demo_compare",
+      "question": "Compare Pragati and Saksham.",
+      "passed": false,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": false,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "The Pragati Scholarship Scheme (available for both technical degree and diploma students) and the AICTE Saksham Scholarship Scheme for Specially-Abled Students (Degree) all provide an annual amount of INR 50,000. Each of these schemes covers similar purposes such as college fees, computers, stationery, books, equipment, and software, and all use the online National Scholarship Portal (NSP) for applications. Pragati payments are trackable through PFMS, while Saksham provides disbursements annually via DBT and renewal through the NSP.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:benefits:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "amount: \"\u20b950,000 per annum\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_compare",
+        "session_id": "130e398a-e427-4876-8434-f95664f565b8"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 1511,
+          "output_tokens": 414,
+          "status": "SUCCESS",
+          "latency_ms": 2352.3844000010286
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 1507,
+          "output_tokens": 160,
+          "status": "SUCCESS",
+          "latency_ms": 1770.380700007081
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 3018,
+      "llm_output_tokens": 574,
+      "latency_ms": 5959.226
+    },
+    {
+      "id": "demo_math",
+      "question": "What is 1+1?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "I can help with the scholarship schemes in my knowledge base, including eligibility, benefits, documents, application procedures, and related scheme information.",
+        "sources": [],
+        "status": "out_of_scope",
+        "error": null,
+        "request_id": "acceptance-demo_math",
+        "session_id": "645c6b3b-a0de-4d97-971e-a7de26027de8"
+      },
+      "llm_usage": [],
+      "retrieval_calls": 0,
+      "llm_input_tokens": 0,
+      "llm_output_tokens": 0,
+      "latency_ms": 260.751
+    },
+    {
+      "id": "demo_cricket",
+      "question": "Who won yesterday's cricket match?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "I can help with the scholarship schemes in my knowledge base, including eligibility, benefits, documents, application procedures, and related scheme information.",
+        "sources": [],
+        "status": "out_of_scope",
+        "error": null,
+        "request_id": "acceptance-demo_cricket",
+        "session_id": "e63eced9-9a57-470c-9ca9-46ef235384bc"
+      },
+      "llm_usage": [],
+      "retrieval_calls": 0,
+      "llm_input_tokens": 0,
+      "llm_output_tokens": 0,
+      "latency_ms": 284.832
+    },
+    {
+      "id": "demo_code",
+      "question": "Write a Python program.",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "I can help with the scholarship schemes in my knowledge base, including eligibility, benefits, documents, application procedures, and related scheme information.",
+        "sources": [],
+        "status": "out_of_scope",
+        "error": null,
+        "request_id": "acceptance-demo_code",
+        "session_id": "902a0693-a724-4da1-a961-3ad977a0ba5f"
+      },
+      "llm_usage": [],
+      "retrieval_calls": 0,
+      "llm_input_tokens": 0,
+      "llm_output_tokens": 0,
+      "latency_ms": 260.168
+    },
+    {
+      "id": "demo_deadline",
+      "question": "What is the deadline for Pragati?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "The available information does not specify the deadline for the Pragati Scholarship Scheme for Girl Students (Technical Degree or Technical Diploma). Please verify the application dates on the official National Scholarship Portal.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          }
+        ],
+        "status": "insufficient_evidence",
+        "error": null,
+        "request_id": "acceptance-demo_deadline",
+        "session_id": "0a95b63b-a04e-4730-9403-c5bd5ccf7b8b"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 804,
+          "output_tokens": 172,
+          "status": "SUCCESS",
+          "latency_ms": 1847.2576000058325
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 699,
+          "output_tokens": 78,
+          "status": "SUCCESS",
+          "latency_ms": 1730.2103000110947
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 1503,
+      "llm_output_tokens": 250,
+      "latency_ms": 5902.653
+    },
+    {
+      "id": "demo_ambiguous",
+      "question": "Which scholarship should I apply for?",
+      "passed": false,
+      "checks": {
+        "status": false,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": false,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "To help you find the right scholarship, could you please clarify your current study level or any relevant category, such as whether you are pursuing pre-matric studies, postgraduate research like a Ph.D., or if you belong to a specific target group?",
+        "sources": [
+          {
+            "scheme_id": "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes",
+            "scheme_name": "Scholarship for Ph.D. Students of Socially and Educationally Backward Classes",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:target_groups:0",
+            "original_record_key": "scheme_14",
+            "excerpt": "\"Higher Education\" \"MPhil\" \"PhD\" \"Scholarship\" \"Student\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:target_groups:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "\"Students with Disabilities\" \"Pre-matric students\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_ambiguous",
+        "session_id": "5cc8f15d-8b35-4c51-81ce-5da7c389f3f9"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 925,
+          "output_tokens": 43,
+          "status": "FAILED",
+          "latency_ms": 1322.9012999945553
+        },
+        {
+          "phase": "generation",
+          "input_tokens": 925,
+          "output_tokens": 198,
+          "status": "SUCCESS",
+          "latency_ms": 1636.842499996419
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 845,
+          "output_tokens": 111,
+          "status": "SUCCESS",
+          "latency_ms": 1644.629200003692
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 2695,
+      "llm_output_tokens": 352,
+      "latency_ms": 7303.561
+    },
+    {
+      "id": "demo_saksham_steps",
+      "question": "How do I apply for Saksham?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "To apply for the AICTE Saksham Scholarship Scheme for Specially-Abled Students (Degree), follow these steps online through the National Scholarship Portal:\n\n1. Keep required documents ready and open the NSP website.\n2. Click New Registration and accept the undertaking.\n3. Complete registration and receive the Application ID and password.\n4. Log in using the application credentials and OTP.\n5. Open the Application Form, fill required details, and upload documents.\n6. Save as Draft or Final Submit the application.",
+        "sources": [
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" steps: \"Keep required documents ready and open the NSP website.\" steps: \"Click New Registration and accept the undertaking.\" steps: \"Complete registration and receive the Application ID and password.\" steps: \"Log in using the application credentials and OTP.\" steps: \"Open the Application Form, fill required details, and upload documents.\" steps: \"Save as Draft or Final Submit the application.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_saksham_steps",
+        "session_id": "65b0d728-ebaf-4366-a8e9-3470dd3bdb5d"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 754,
+          "output_tokens": 274,
+          "status": "SUCCESS",
+          "latency_ms": 1746.5819000062766
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 754,
+      "llm_output_tokens": 274,
+      "latency_ms": 2281.984
+    }
+  ],
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "limitations": "Live source checks, factual spot checks, and model grounding review are not a proof that every paraphrase is correct. No official eligibility decisions are made.",
+  "passed": 10,
+  "total": 14,
+  "latency_ms": {
+    "p50": 3219.613,
+    "p95": 15074.711,
+    "p99": 17302.425
+  },
+  "elapsed_seconds": 297.648
+}

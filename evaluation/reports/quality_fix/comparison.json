@@ -1,0 +1,159 @@
+{
+  "baseline_run_id": "665afa6d748242268576bcfbbe650196",
+  "new_run_id": "76b82e4e4a494a26a7bd413b9926c5a2",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "dataset_sha256": "441e62c3d97f17ffd579d703ef43687a59aa168aad6775ee67cc166bfb2fa2c6",
+  "before": {
+    "questions": 27,
+    "previous_failed_attempts": 9,
+    "expected_schemes": 16,
+    "retrieved_schemes": 16,
+    "cited_schemes": 13,
+    "behavior_passed": 21,
+    "pipeline_errors": 6,
+    "metrics": {
+      "faithfulness": {
+        "mean": 0.9591503267973858,
+        "scored": 17,
+        "errors": 0,
+        "skipped": 10
+      },
+      "answer_relevancy": {
+        "mean": 0.8584837176893203,
+        "scored": 17,
+        "errors": 0,
+        "skipped": 10
+      },
+      "context_precision": {
+        "mean": 0.7029411764108334,
+        "scored": 17,
+        "errors": 0,
+        "skipped": 10
+      },
+      "context_recall": {
+        "mean": 0.9705882352941176,
+        "scored": 17,
+        "errors": 0,
+        "skipped": 10
+      }
+    },
+    "retrieval_latency_ms": {
+      "p50": 21.894,
+      "p95": 198.948,
+      "p99": 219.669
+    },
+    "total_latency_ms": {
+      "p50": 5183.963,
+      "p95": 13305.78,
+      "p99": 15939.943
+    },
+    "application_usage": {
+      "calls": 63,
+      "input_tokens": 75233,
+      "output_tokens": 17244,
+      "calls_missing_usage": 9
+    },
+    "evaluator_usage": {
+      "calls": 154,
+      "input_tokens": 148063,
+      "output_tokens": 20371,
+      "calls_missing_usage": 3
+    }
+  },
+  "after": {
+    "questions": 27,
+    "previous_failed_attempts": 0,
+    "expected_schemes": 16,
+    "retrieved_schemes": 16,
+    "cited_schemes": 3,
+    "behavior_passed": 6,
+    "pipeline_errors": 21,
+    "metrics": {
+      "faithfulness": {
+        "mean": 1.0,
+        "scored": 3,
+        "errors": 0,
+        "skipped": 24
+      },
+      "answer_relevancy": {
+        "mean": 0.9462830450243803,
+        "scored": 2,
+        "errors": 1,
+        "skipped": 24
+      },
+      "context_precision": {
+        "mean": 0.9999999999,
+        "scored": 2,
+        "errors": 1,
+        "skipped": 24
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "scored": 2,
+        "errors": 1,
+        "skipped": 24
+      }
+    },
+    "retrieval_latency_ms": {
+      "p50": 45.849,
+      "p95": 151.292,
+      "p99": 345.54
+    },
+    "total_latency_ms": {
+      "p50": 17816.199,
+      "p95": 45192.547,
+      "p99": 57428.717
+    },
+    "application_usage": {
+      "calls": 67,
+      "input_tokens": 3958,
+      "output_tokens": 920,
+      "calls_missing_usage": 63
+    },
+    "evaluator_usage": {
+      "calls": 24,
+      "input_tokens": 15265,
+      "output_tokens": 3174,
+      "calls_missing_usage": 6
+    }
+  },
+  "common_scored_cases": {
+    "faithfulness": {
+      "ids": [
+        "scheme_1",
+        "scheme_2"
+      ],
+      "scored": 2,
+      "before": 1.0,
+      "after": 1.0
+    },
+    "answer_relevancy": {
+      "ids": [
+        "scheme_1",
+        "scheme_2"
+      ],
+      "scored": 2,
+      "before": 0.9341419952030934,
+      "after": 0.9462830450243803
+    },
+    "context_precision": {
+      "ids": [
+        "scheme_1",
+        "scheme_2"
+      ],
+      "scored": 2,
+      "before": 0.9999999999,
+      "after": 0.9999999999
+    },
+    "context_recall": {
+      "ids": [
+        "scheme_1",
+        "scheme_2"
+      ],
+      "scored": 2,
+      "before": 1.0,
+      "after": 1.0
+    }
+  },
+  "comparison_limit": "Compare denominators and failures before interpreting means; partial/scored-subset means do not establish full-set improvement."
+}

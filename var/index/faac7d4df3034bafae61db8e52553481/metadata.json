@@ -1,0 +1,1 @@
+{"corpus_hash": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea", "embedding_model": "sentence-transformers/all-MiniLM-L6-v2", "dimension": 384, "chunks_sha256": "dca7b377b94eeda105541971dadd0a4ec7e35f6da17603116c74926ace2bf46b", "index_sha256": "59c43b193204bf67a92b50e364621d258da86480a48cd403b76e2eb52071f475", "chunk_count": 139}

@@ -1,0 +1,592 @@
+{
+  "created_at": "2026-10-15T17:15:31.698411+00:00",
+  "mode": "local_domain_and_context",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "index": {
+    "ready": true,
+    "version": "faac7d4df3034bafae61db8e52553481",
+    "chunks": 139,
+    "reason": null
+  },
+  "integrity": {
+    "all_16_indexed": true,
+    "all_16_application_sections": true,
+    "source_ids_match": true
+  },
+  "baseline_amount_usage": null,
+  "results": [
+    {
+      "id": "demo_pragati_benefits",
+      "question": "What are the benefits of Pragati?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "benefits",
+        "sections": [
+          "benefits"
+        ],
+        "domain_score": 0.6645,
+        "other_score": 0.2604,
+        "intent_score": 0.9952
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0"
+      ],
+      "retrieved_characters": 593,
+      "baseline": null,
+      "latency_ms": 14091.206
+    },
+    {
+      "id": "demo_amount",
+      "question": "How much does Pragati provide?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "benefits",
+        "sections": [
+          "benefits"
+        ],
+        "domain_score": 0.5191,
+        "other_score": 0.2091,
+        "intent_score": 0.7842
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0"
+      ],
+      "retrieved_characters": 593,
+      "baseline": null,
+      "latency_ms": 26.383
+    },
+    {
+      "id": "demo_saksham_documents",
+      "question": "What documents are required for Saksham?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "documents",
+        "sections": [
+          "documents_required"
+        ],
+        "domain_score": 0.6955,
+        "other_score": 0.1814,
+        "intent_score": 0.9351
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:documents_required:0"
+      ],
+      "retrieved_characters": 459,
+      "baseline": null,
+      "latency_ms": 22.562
+    },
+    {
+      "id": "demo_yasasvi_eligibility",
+      "question": "Who is eligible for the PM-YASASVI scheme?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "eligibility",
+        "sections": [
+          "eligibility",
+          "exclusions",
+          "target_groups"
+        ],
+        "domain_score": 0.4848,
+        "other_score": 0.1358,
+        "intent_score": 0.938
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:eligibility:0",
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:target_groups:0"
+      ],
+      "retrieved_characters": 308,
+      "baseline": null,
+      "latency_ms": 22.254
+    },
+    {
+      "id": "demo_pragati_apply",
+      "question": "How do I apply for Pragati?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "application",
+        "sections": [
+          "application"
+        ],
+        "domain_score": 0.6206,
+        "other_score": 0.1751,
+        "intent_score": 0.9953
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0"
+      ],
+      "retrieved_characters": 198,
+      "baseline": null,
+      "latency_ms": 18.615
+    },
+    {
+      "id": "demo_apply_followup",
+      "question": "How can I apply for the scholarship?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "application",
+        "sections": [
+          "application",
+          "eligibility",
+          "exclusions",
+          "target_groups"
+        ],
+        "domain_score": 0.9768,
+        "other_score": 0.3021,
+        "intent_score": 0.9768
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pre_matric_scholarship_for_students_with_disabilities:application:0",
+        "post_matric_scholarship_students_with_disabilities:application:0",
+        "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:application:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0",
+        "national_means_cum_merit_scholarship_scheme:eligibility:0",
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:target_groups:0",
+        "national_means_cum_merit_scholarship_scheme:important_notes:0",
+        "post_matric_scholarship_students_with_disabilities:important_notes:0",
+        "pre_matric_scholarship_for_students_with_disabilities:important_notes:0"
+      ],
+      "retrieved_characters": 3461,
+      "baseline": null,
+      "latency_ms": 81.948
+    },
+    {
+      "id": "demo_girls",
+      "question": "Which schemes are available for girl students?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "discovery",
+        "sections": [
+          "target_groups",
+          "eligibility",
+          "benefits",
+          "objective"
+        ],
+        "domain_score": 1.0,
+        "other_score": 0.2747,
+        "intent_score": 1.0
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:target_groups:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:target_groups:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:target_groups:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:1",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:eligibility:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:application:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:important_notes:0"
+      ],
+      "retrieved_characters": 5227,
+      "baseline": null,
+      "latency_ms": 52.051
+    },
+    {
+      "id": "demo_compare",
+      "question": "Compare Pragati and Saksham.",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "comparison",
+        "sections": [
+          "benefits",
+          "eligibility",
+          "application"
+        ],
+        "domain_score": 0.297,
+        "other_score": 0.2207,
+        "intent_score": 0.8326
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:eligibility:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:eligibility:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0"
+      ],
+      "retrieved_characters": 3291,
+      "baseline": null,
+      "latency_ms": 21.521
+    },
+    {
+      "id": "demo_math",
+      "question": "What is 1+1?",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.2231,
+        "other_score": 0.2639,
+        "intent_score": 0.185
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 10.771
+    },
+    {
+      "id": "demo_cricket",
+      "question": "Who won yesterday's cricket match?",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.103,
+        "other_score": 0.6123,
+        "intent_score": 0.0456
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 13.237
+    },
+    {
+      "id": "demo_code",
+      "question": "Write a Python program.",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.1279,
+        "other_score": 0.7757,
+        "intent_score": 0.105
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 10.438
+    },
+    {
+      "id": "demo_deadline",
+      "question": "What is the deadline for Pragati?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "deadline",
+        "sections": [
+          "application"
+        ],
+        "domain_score": 0.7274,
+        "other_score": 0.1742,
+        "intent_score": 0.7389
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0"
+      ],
+      "retrieved_characters": 198,
+      "baseline": null,
+      "latency_ms": 24.461
+    },
+    {
+      "id": "demo_ambiguous",
+      "question": "Which scholarship should I apply for?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "clarification",
+        "sections": [
+          "target_groups",
+          "objective"
+        ],
+        "domain_score": 1.0,
+        "other_score": 0.382,
+        "intent_score": 1.0
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:target_groups:0",
+        "pre_matric_scholarship_for_students_with_disabilities:target_groups:0"
+      ],
+      "retrieved_characters": 106,
+      "baseline": null,
+      "latency_ms": 12.502
+    },
+    {
+      "id": "demo_saksham_steps",
+      "question": "How do I apply for Saksham?",
+      "plan": {
+        "out_of_scope": false,
+        "intent": "application",
+        "sections": [
+          "application"
+        ],
+        "domain_score": 0.5577,
+        "other_score": 0.1958,
+        "intent_score": 0.9953
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0"
+      ],
+      "retrieved_characters": 455,
+      "baseline": null,
+      "latency_ms": 13.066
+    },
+    {
+      "id": "0",
+      "question": "Who is the president?",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.1412,
+        "other_score": 0.4316,
+        "intent_score": 0.041
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 10.919
+    },
+    {
+      "id": "1",
+      "question": "Tell me a joke.",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.2028,
+        "other_score": 0.6238,
+        "intent_score": 0.0671
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 11.782
+    },
+    {
+      "id": "2",
+      "question": "What is the weather today?",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.1605,
+        "other_score": 0.7758,
+        "intent_score": -0.0734
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 9.976
+    },
+    {
+      "id": "3",
+      "question": "Pragati write a Python program",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "discovery",
+        "sections": [
+          "target_groups",
+          "eligibility",
+          "benefits",
+          "objective"
+        ],
+        "domain_score": 0.1616,
+        "other_score": 0.645,
+        "intent_score": 0.5337
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 20.965
+    },
+    {
+      "id": "4",
+      "question": "Explain cricket match scores.",
+      "plan": {
+        "out_of_scope": true,
+        "intent": "general",
+        "sections": [],
+        "domain_score": 0.189,
+        "other_score": 0.7959,
+        "intent_score": 0.1686
+      },
+      "checks": {
+        "target_intent": true,
+        "domain": true,
+        "target_section": true,
+        "no_retrieval_failure": true,
+        "context_budget": true,
+        "unique_chunks": true
+      },
+      "passed": true,
+      "chunks": [],
+      "retrieved_characters": 0,
+      "baseline": null,
+      "latency_ms": 15.845
+    }
+  ],
+  "passed": 19,
+  "total": 19,
+  "limitations": "Semantic classifier examples are an evaluation sample, not universal domain accuracy. Character counts are exact; token estimates are not measured model tokens. No LLM calls in this local benchmark."
+}

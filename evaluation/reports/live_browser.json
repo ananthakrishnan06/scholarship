@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-01T09:12:26.027661+00:00",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "question": "How much does Pragati provide?",
+  "live_browser": "PASS",
+  "http_status": 200,
+  "status": "success",
+  "source_schemes": 2,
+  "actual_generated_text_rendered": true,
+  "conversation_restored": true,
+  "profile_required": false,
+  "screenshot": "var/assistant-live.png",
+  "method": "Headless Edge; compared rendered text exactly to live API answer, verified amount and source display, reloaded and checked restored answer. Disposable session cleared."
+}

@@ -1,0 +1,122 @@
+{
+  "q01": {
+    "scheme_prefix": "post_graduate_indira",
+    "section": "documents_required"
+  },
+  "q02": {
+    "scheme_prefix": "post_graduate_indira",
+    "section": "benefits"
+  },
+  "q03": {
+    "scheme_prefix": "post_graduate_indira",
+    "section": "application"
+  },
+  "q04": {
+    "scheme_prefix": "post_graduate_indira",
+    "section": "eligibility"
+  },
+  "q05": {
+    "scheme_prefix": "pm_yasasvi",
+    "section": null
+  },
+  "q06": {
+    "scheme_prefix": "pm_yasasvi",
+    "section": "eligibility"
+  },
+  "q07": {
+    "scheme_prefix": "pm_yasasvi",
+    "section": "documents_required"
+  },
+  "q08": {
+    "scheme_prefix": "pm_yasasvi",
+    "section": "benefits"
+  },
+  "q09": {
+    "scheme_prefix": "post_graduate_scholarship_scheme_for_gate",
+    "section": "eligibility"
+  },
+  "q10": {
+    "scheme_prefix": "post_graduate_scholarship_scheme_for_gate",
+    "section": "eligibility"
+  },
+  "q11": {
+    "scheme_prefix": "post_graduate_scholarship_scheme_for_gate",
+    "section": "application"
+  },
+  "q12": {
+    "scheme_prefix": "post_graduate_scholarship_scheme_for_gate",
+    "section": "documents_required"
+  },
+  "q13": {
+    "scheme_prefix": "aicte_saksham",
+    "section": "eligibility"
+  },
+  "q14": {
+    "scheme_prefix": "aicte_saksham",
+    "section": "eligibility"
+  },
+  "q15": {
+    "scheme_prefix": "aicte_saksham",
+    "section": "benefits"
+  },
+  "q16": {
+    "scheme_prefix": "aicte_saksham",
+    "section": "documents_required"
+  },
+  "q17": {
+    "scheme_prefix": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+    "section": "eligibility"
+  },
+  "q18": {
+    "scheme_prefix": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+    "section": "documents_required"
+  },
+  "q19": {
+    "scheme_prefix": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+    "section": "benefits"
+  },
+  "q20": {
+    "scheme_prefix": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+    "section": "application"
+  },
+  "q21": {
+    "scheme_prefix": "pre_matric_scholarship_for_students_with_disabilities",
+    "section": "eligibility"
+  },
+  "q22": {
+    "scheme_prefix": "pre_matric_scholarship_for_students_with_disabilities",
+    "section": "documents_required"
+  },
+  "q23": {
+    "scheme_prefix": "post_matric_scholarship_students_with_disabilities",
+    "section": "benefits"
+  },
+  "q24": {
+    "scheme_prefix": "pre_matric_scholarship_for_scheduled_tribe",
+    "section": "eligibility"
+  },
+  "q25": {
+    "scheme_prefix": "scholarship_for_ph_d",
+    "section": "eligibility"
+  },
+  "q26": {
+    "scheme_prefix": "scholarship_for_ph_d",
+    "section": "application"
+  },
+  "q27": {
+    "scheme_prefix": "icar_post_matric",
+    "section": "documents_required"
+  },
+  "q28": {
+    "scheme_prefix": "icar_post_matric",
+    "section": "benefits"
+  },
+  "q29": {
+    "scheme_prefix": "national_means",
+    "section": "eligibility"
+  },
+  "q30": {
+    "scheme_prefix": "post_graduate_merit",
+    "section": "documents_required"
+  }
+}

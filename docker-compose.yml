@@ -1,0 +1,57 @@
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-scholarships}
+      MYSQL_USER: ${MYSQL_USER:-scholarships}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped
+  backend:
+    build: .
+    env_file: .env
+    environment:
+      DB_ENGINE: mysql
+      MYSQL_HOST: mysql
+      MYSQL_PORT: "3306"
+      PORT: "8000"
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-true}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1,backend}
+      VECTOR_INDEX_DIR: /app/var/index
+      HF_HOME: /opt/huggingface
+    volumes:
+      - app_data:/app/var
+      - static_data:/app/var/static
+    depends_on:
+      mysql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "-H", "X-Forwarded-Proto: https", "http://localhost:8000/health/live"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 5
+    restart: unless-stopped
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    volumes:
+      - static_data:/django-static:ro
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  mysql_data:
+  app_data:
+  static_data:

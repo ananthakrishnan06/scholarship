@@ -1,0 +1,79 @@
+# Private environment files; commit only empty/example configuration templates.
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+
+# Credentials and private signing material.
+secrets/
+credentials/
+credentials.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.kdbx
+id_rsa
+id_ed25519
+
+# Python environments, bytecode, caches and generated packaging output.
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+*.egg-info/
+*.egg
+.coverage
+.coverage.*
+htmlcov/
+
+# Installed dependencies and generated build/browser output.
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+*.tsbuildinfo
+test-results/
+playwright-report/
+
+# Local databases, model/index caches, sessions, logs and runtime artifacts.
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+# Include only the reviewed deployment index; all other runtime artifacts stay excluded.
+var/*
+!var/index/
+var/index/*
+!var/index/CURRENT
+!var/index/faac7d4df3034bafae61db8e52553481/
+var/index/faac7d4df3034bafae61db8e52553481/*
+!var/index/faac7d4df3034bafae61db8e52553481/vectors.faiss
+!var/index/faac7d4df3034bafae61db8e52553481/chunks.json
+!var/index/faac7d4df3034bafae61db8e52553481/metadata.json
+*.log
+
+# IDE, editor and operating-system temporary files.
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

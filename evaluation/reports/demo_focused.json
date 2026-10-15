@@ -1,0 +1,371 @@
+{
+  "created_at": "2026-10-01T10:53:55.753200+00:00",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "index": {
+    "ready": true,
+    "version": "faac7d4df3034bafae61db8e52553481",
+    "chunks": 139,
+    "reason": null
+  },
+  "mode": "live_rag",
+  "results": [
+    {
+      "id": "demo_amount",
+      "question": "How much does Pragati provide?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "Both the Pragati Scholarship Scheme for Girl Students (Technical Degree) and the Pragati Scholarship Scheme for Girl Students (Technical Diploma) provide an annual amount of INR 50,000. This lump sum is intended for purposes such as college fees, a computer, stationery, books, equipment, and software.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000"
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_amount",
+        "session_id": "4bf89f9a-5e91-4afb-abb4-78e34a5c8e4b"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 1147,
+          "output_tokens": 199,
+          "status": "SUCCESS",
+          "latency_ms": 2933.1133000086993
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 1147,
+      "llm_output_tokens": 199,
+      "latency_ms": 13281.692
+    },
+    {
+      "id": "demo_girls",
+      "question": "Which schemes are available for girl students?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "Several schemes are available for girl students. First, the Pragati Scholarship Scheme For Girl Students (Technical Degree) supports female students pursuing a technical degree at an AICTE-approved institution by applying online through the National Scholarship Portal (NSP). Second, the Pragati Scholarship Scheme For Girl Students (Technical Diploma) assists female students pursuing a technical diploma at an AICTE-approved institution, with applications also submitted online via the National Scholarship Portal (NSP). Finally, the Post Graduate Indira Gandhi Scholarship For Single Girl Child is available for single girl children admitted to a regular, full-time non-professional Master's degree course; eligible candidates apply online through the National Scholarship Portal after a notice is published on the UGC website.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:target_groups:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "\"Girl Student\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:target_groups:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "\"Girl Student\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:target_groups:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "\"Single girl children\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:target_groups:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "\"Girl students admitted to the first year of a regular, full-time Master's degree course\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "gender: \"Female\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "institution requirement: \"AICTE-approved institution\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:eligibility:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "gender: \"Female\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:eligibility:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "institution requirement: \"AICTE-approved institution\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:1",
+            "original_record_key": "scheme_1",
+            "excerpt": "fresh application / course type / value: \"non-professional\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:application:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "portal: \"National Scholarship Portal\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:application:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "timing: \"Applications are invited once a year after initiation of the application process and notice published on the UGC website.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_girls",
+        "session_id": "c7608b4d-cbce-4f17-8ee9-65d85c79b2d2"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 2741,
+          "output_tokens": 900,
+          "status": "SUCCESS",
+          "latency_ms": 3554.01669999992
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 2683,
+          "output_tokens": 307,
+          "status": "SUCCESS",
+          "latency_ms": 2003.1158000056166
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 5424,
+      "llm_output_tokens": 1207,
+      "latency_ms": 6576.683
+    },
+    {
+      "id": "demo_compare",
+      "question": "Compare Pragati and Saksham.",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true,
+        "call_budget": true,
+        "off_domain_skips_retrieval": true,
+        "forbidden_answers_absent": true
+      },
+      "response": {
+        "answer": "The Pragati Scholarship Schemes (for technical degree and diploma students) and the AICTE Saksham Scholarship Scheme (for specially-abled students pursuing a degree) each provide an annual amount of \u20b950,000. All three schemes share the application method of applying online through the National Scholarship Portal. Regarding eligibility, Pragati schemes are restricted to female students studying in AICTE-approved institutions with a family income up to \u20b98,00,000 per annum. Similarly, the Saksham scheme requires enrollment in an AICTE-approved institution with a family income not exceeding \u20b98 lakh per annum, but specifically requires students to be specially-abled with a disability of at least 40%.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:benefits:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "amount: \"\u20b950,000 per annum\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "portal: \"National Scholarship Portal (NSP)\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "gender: \"Female\" year of study: \"First year of degree course\" year of study: \"Second year through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:eligibility:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "gender: \"Female\" year of study: \"First year of diploma course\" year of study: \"Second year of diploma course through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000"
+          },
+          {
+            "scheme_id": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+            "scheme_name": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:eligibility:0",
+            "original_record_key": "scheme_11",
+            "excerpt": "\"Institution must be AICTE-approved for the respective year.\" \"Disability must be at least 40%.\" \"Family income from all sources must not exceed \u20b98 lakh per annum during the current financial year.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-demo_compare",
+        "session_id": "5f288434-e901-46b5-987a-f26c4b560cb6"
+      },
+      "llm_usage": [
+        {
+          "phase": "generation",
+          "input_tokens": 2278,
+          "output_tokens": 787,
+          "status": "SUCCESS",
+          "latency_ms": 3245.4770999902394
+        },
+        {
+          "phase": "verification",
+          "input_tokens": 2661,
+          "output_tokens": 267,
+          "status": "SUCCESS",
+          "latency_ms": 1884.1696999879787
+        }
+      ],
+      "retrieval_calls": 1,
+      "llm_input_tokens": 4939,
+      "llm_output_tokens": 1054,
+      "latency_ms": 6146.484
+    }
+  ],
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "limitations": "Live source checks, factual spot checks, and model grounding review are not a proof that every paraphrase is correct. No official eligibility decisions are made.",
+  "passed": 3,
+  "total": 3,
+  "latency_ms": {
+    "p50": 6576.683,
+    "p95": 12611.191,
+    "p99": 13147.592
+  },
+  "elapsed_seconds": 57.3
+}

@@ -1,0 +1,59 @@
+{
+  "dataset": "scholarship_dataset_ready.json",
+  "qa": [
+    {
+      "check": "JSON parses",
+      "status": "PASS"
+    },
+    {
+      "check": "Exact duplicates removed",
+      "status": "PASS",
+      "count": 2,
+      "duplicates": [
+        {
+          "duplicate_record": "scheme_9",
+          "kept_record": "scheme_8",
+          "reason": "exact_content_duplicate"
+        },
+        {
+          "duplicate_record": "scheme_15",
+          "kept_record": "scheme_14",
+          "reason": "exact_content_duplicate"
+        }
+      ]
+    },
+    {
+      "check": "Unique scheme IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "Unique scheme names",
+      "status": "PASS"
+    },
+    {
+      "check": "Original source records preserved",
+      "status": "PASS",
+      "count": 16
+    },
+    {
+      "check": "Missing provider",
+      "status": "INFO",
+      "schemes": []
+    },
+    {
+      "check": "Missing eligibility",
+      "status": "INFO",
+      "schemes": []
+    },
+    {
+      "check": "Missing benefits",
+      "status": "INFO",
+      "schemes": []
+    },
+    {
+      "check": "Potential source contradictions requiring review",
+      "status": "INFO",
+      "note": "Existing important_notes/original_record content was preserved; no contradictions were resolved by inference."
+    }
+  ]
+}

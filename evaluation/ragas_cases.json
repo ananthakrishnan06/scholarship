@@ -1,0 +1,533 @@
+{
+  "version": 1,
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "reference_method": "Exact section snapshots from prepare_documents(); references are benchmark labels only and are never sent to the application generator. Absence, clarification and off-domain labels state dataset limitations/behavior, not scholarship facts.",
+  "samples": [
+    {
+      "id": "scheme_1",
+      "question": "What benefits does Post Graduate Indira Gandhi Scholarship For Single Girl Child provide?",
+      "reference": "Post Graduate Indira Gandhi Scholarship For Single Girl Child [benefits]\nfellowship amount / amount: 36200 fellowship amount / currency: \"INR\" fellowship amount / frequency: \"per annum\" duration: \"Two years only, i.e. the full duration of a PG course.\" fresh scholarships per year: 3000 payment mode: \"DBT\" payment frequency: \"annual\" additional grants / available: false additional grants / excluded items: \"hostel charges\" additional grants / excluded items: \"medical charges\"",
+      "expected_scheme_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child"
+      ],
+      "reference_chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:benefits:0"
+      ],
+      "reference_contexts": [
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [benefits]\nfellowship amount / amount: 36200 fellowship amount / currency: \"INR\" fellowship amount / frequency: \"per annum\" duration: \"Two years only, i.e. the full duration of a PG course.\" fresh scholarships per year: 3000 payment mode: \"DBT\" payment frequency: \"annual\" additional grants / available: false additional grants / excluded items: \"hostel charges\" additional grants / excluded items: \"medical charges\""
+      ],
+      "category": "direct",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_2",
+      "question": "What documents are required for Post-Graduate Scholarships for Professional Courses for SC/ST Candidates?",
+      "reference": "Post-Graduate Scholarships for Professional Courses for SC/ST Candidates [documents_required]\n\"Aadhaar Card\" \"Passport-size Photograph\" \"Proof of age\" \"Mark Sheets/Grade Cards & Degrees\" \"Caste certificate, if applicable\" \"Disability certificate, if applicable\" \"Other required documents\"",
+      "expected_scheme_ids": [
+        "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates"
+      ],
+      "reference_chunk_ids": [
+        "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates:documents_required:0"
+      ],
+      "reference_contexts": [
+        "Post-Graduate Scholarships for Professional Courses for SC/ST Candidates [documents_required]\n\"Aadhaar Card\" \"Passport-size Photograph\" \"Proof of age\" \"Mark Sheets/Grade Cards & Degrees\" \"Caste certificate, if applicable\" \"Disability certificate, if applicable\" \"Other required documents\""
+      ],
+      "category": "documents",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_3",
+      "question": "How do I apply for Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University Students?",
+      "reference": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University Students [application]\nmode: \"Online\" portal: \"National Scholarships Portal (NSP)\" one time registration: \"Apply for OTR on NSP.\" one time registration: \"Accept the registration undertaking.\" one time registration: \"Register an active mobile number.\" one time registration: \"Complete Aadhaar e-KYC using the student/parent/legal guardian Aadhaar details and OTP.\" one time registration: \"Enter required details and obtain the OTR reference number.\" one time registration: \"Complete face authentication using the prescribed NSP OTR and Aadhaar FaceRD apps.\" one time registration: \"Receive the 14-digit OTR number after successful face authentication.\" fresh application: \"Log in to NSP using OTR number and password.\" fresh application: \"Enter captcha and log in.\" fresh application: \"Complete OTP/password steps as directed.\" fresh application: \"Open the Application Form from the Applicant Dashboard.\" fresh application: \"Fill required fields and upload documents.\" fresh application: \"Save as draft or final-submit the application.\" verification: \"Applications are verified by the institute where the student studies.\" verification: \"Applications are then\n\nPradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University Students [application]\nverified by the concerned State Higher Education Department or nominated State Nodal Agency.\" payment tracking: \"Payment can be tracked through the Public Financial Management System (PFMS) Know Your Payment facility using Aadhaar Number, Bank Account Number or NSP Application ID.\" timeline note: \"NSP provides the opening and closing timelines for online applications.\"",
+      "expected_scheme_ids": [
+        "pradhan_mantri_uchchatar_shiksha_protsahan_pm_usp_central_sector_scheme_of_scholarship_for_college_and_university_students"
+      ],
+      "reference_chunk_ids": [
+        "pradhan_mantri_uchchatar_shiksha_protsahan_pm_usp_central_sector_scheme_of_scholarship_for_college_and_university_students:application:0",
+        "pradhan_mantri_uchchatar_shiksha_protsahan_pm_usp_central_sector_scheme_of_scholarship_for_college_and_university_students:application:1"
+      ],
+      "reference_contexts": [
+        "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University Students [application]\nmode: \"Online\" portal: \"National Scholarships Portal (NSP)\" one time registration: \"Apply for OTR on NSP.\" one time registration: \"Accept the registration undertaking.\" one time registration: \"Register an active mobile number.\" one time registration: \"Complete Aadhaar e-KYC using the student/parent/legal guardian Aadhaar details and OTP.\" one time registration: \"Enter required details and obtain the OTR reference number.\" one time registration: \"Complete face authentication using the prescribed NSP OTR and Aadhaar FaceRD apps.\" one time registration: \"Receive the 14-digit OTR number after successful face authentication.\" fresh application: \"Log in to NSP using OTR number and password.\" fresh application: \"Enter captcha and log in.\" fresh application: \"Complete OTP/password steps as directed.\" fresh application: \"Open the Application Form from the Applicant Dashboard.\" fresh application: \"Fill required fields and upload documents.\" fresh application: \"Save as draft or final-submit the application.\" verification: \"Applications are verified by the institute where the student studies.\" verification: \"Applications are then",
+        "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University Students [application]\nverified by the concerned State Higher Education Department or nominated State Nodal Agency.\" payment tracking: \"Payment can be tracked through the Public Financial Management System (PFMS) Know Your Payment facility using Aadhaar Number, Bank Account Number or NSP Application ID.\" timeline note: \"NSP provides the opening and closing timelines for online applications.\""
+      ],
+      "category": "application",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_4",
+      "question": "Who is eligible for PM-YASASVI: Top Class College Education for OBC, EBC and DNT Students?",
+      "reference": "PM-YASASVI: Top Class College Education for OBC, EBC and DNT Students [eligibility]\nstudent: true category: \"OBC\" category: \"EBC\" category: \"DNT\" family income max annual inr: 250000 course level: \"Beyond Class XII\" institution requirement: \"Notified/eligible Top Class institution\" siblings max beneficiaries: 2 promotion required for renewal: true merit or slot based: true",
+      "expected_scheme_ids": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students"
+      ],
+      "reference_chunk_ids": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:eligibility:0"
+      ],
+      "reference_contexts": [
+        "PM-YASASVI: Top Class College Education for OBC, EBC and DNT Students [eligibility]\nstudent: true category: \"OBC\" category: \"EBC\" category: \"DNT\" family income max annual inr: 250000 course level: \"Beyond Class XII\" institution requirement: \"Notified/eligible Top Class institution\" siblings max beneficiaries: 2 promotion required for renewal: true merit or slot based: true"
+      ],
+      "category": "eligibility",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_5",
+      "question": "What benefits does Post Matric Scholarship Students With Disabilities provide?",
+      "reference": "Post Matric Scholarship Students With Disabilities [benefits]\nmaintenance allowance / group 1 / description: \"Bachelor's/Post-Graduate Degree Courses in Medicine, Engineering/Technology, Planning/Architecture, Fashion Technology, Management, Business/Finance Administration, Computer Science/Applications, Agriculture, Veterinary and Allied Sciences\" maintenance allowance / group 1 / hosteller monthly inr: 1600 maintenance allowance / group 1 / day scholar monthly inr: 750 maintenance allowance / group 2 / description: \"Professional Degree/Diploma/Certificate courses such as Pharmacy, LLB, BFS, para-medical branches, Mass Communication, Hotel Management & Catering, Travel/Tourism/Hospitality, Interior Decoration, Nutrition & Dietetics, Commercial Art and Financial Services\" maintenance allowance / group 2 / hosteller monthly inr: 1100 maintenance allowance / group 2 / day scholar monthly inr: 700 maintenance allowance / group 3 / description: \"Other courses leading to a Graduate Degree not covered under Group 1 or Group 2, such as BA, B.Sc and B.Com\" maintenance allowance / group 3 / hosteller monthly inr: 950 maintenance allowance / group 3 / day scholar monthly inr:\n\nPost Matric Scholarship Students With Disabilities [benefits]\n650 maintenance allowance / group 4 / description: \"Post-Matriculation non-degree courses for which entrance qualification is Class 10, including Class 11/12, ITI and 3-year Polytechnic diploma courses\" maintenance allowance / group 4 / hosteller monthly inr: 900 maintenance allowance / group 4 / day scholar monthly inr: 550 disability allowances annual inr / visually impaired: 4000 disability allowances annual inr / hearing impaired: 2000 disability allowances annual inr / physically disabled oh: 2000 disability allowances annual inr / intellectual disabilities: 4000 disability allowances annual inr / other disabilities: 2000 book allowance annual inr: 1500",
+      "expected_scheme_ids": [
+        "post_matric_scholarship_students_with_disabilities"
+      ],
+      "reference_chunk_ids": [
+        "post_matric_scholarship_students_with_disabilities:benefits:0",
+        "post_matric_scholarship_students_with_disabilities:benefits:1"
+      ],
+      "reference_contexts": [
+        "Post Matric Scholarship Students With Disabilities [benefits]\nmaintenance allowance / group 1 / description: \"Bachelor's/Post-Graduate Degree Courses in Medicine, Engineering/Technology, Planning/Architecture, Fashion Technology, Management, Business/Finance Administration, Computer Science/Applications, Agriculture, Veterinary and Allied Sciences\" maintenance allowance / group 1 / hosteller monthly inr: 1600 maintenance allowance / group 1 / day scholar monthly inr: 750 maintenance allowance / group 2 / description: \"Professional Degree/Diploma/Certificate courses such as Pharmacy, LLB, BFS, para-medical branches, Mass Communication, Hotel Management & Catering, Travel/Tourism/Hospitality, Interior Decoration, Nutrition & Dietetics, Commercial Art and Financial Services\" maintenance allowance / group 2 / hosteller monthly inr: 1100 maintenance allowance / group 2 / day scholar monthly inr: 700 maintenance allowance / group 3 / description: \"Other courses leading to a Graduate Degree not covered under Group 1 or Group 2, such as BA, B.Sc and B.Com\" maintenance allowance / group 3 / hosteller monthly inr: 950 maintenance allowance / group 3 / day scholar monthly inr:",
+        "Post Matric Scholarship Students With Disabilities [benefits]\n650 maintenance allowance / group 4 / description: \"Post-Matriculation non-degree courses for which entrance qualification is Class 10, including Class 11/12, ITI and 3-year Polytechnic diploma courses\" maintenance allowance / group 4 / hosteller monthly inr: 900 maintenance allowance / group 4 / day scholar monthly inr: 550 disability allowances annual inr / visually impaired: 4000 disability allowances annual inr / hearing impaired: 2000 disability allowances annual inr / physically disabled oh: 2000 disability allowances annual inr / intellectual disabilities: 4000 disability allowances annual inr / other disabilities: 2000 book allowance annual inr: 1500"
+      ],
+      "category": "benefits",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_6",
+      "question": "What documents are required for Pragati Scholarship Scheme For Girl Students (Technical Degree)?",
+      "reference": "Pragati Scholarship Scheme For Girl Students (Technical Degree) [documents_required]\n\"SSC/10th certificate\" \"HSC/12th certificate for degree level\" \"ITI certificate for lateral entry for diploma level\" \"Diploma certificate for lateral entry for degree level\" \"Bank passbook\" \"Category certificate\" \"Aadhaar Card\" \"Study Certificate (Appendix-I)\" \"Annual Family Income Certificate (Appendix-II)\" \"Parent's Declaration (Appendix-III)\" \"Bank Mandate Form (Appendix-IV)\"",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree"
+      ],
+      "reference_chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:documents_required:0"
+      ],
+      "reference_contexts": [
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [documents_required]\n\"SSC/10th certificate\" \"HSC/12th certificate for degree level\" \"ITI certificate for lateral entry for diploma level\" \"Diploma certificate for lateral entry for degree level\" \"Bank passbook\" \"Category certificate\" \"Aadhaar Card\" \"Study Certificate (Appendix-I)\" \"Annual Family Income Certificate (Appendix-II)\" \"Parent's Declaration (Appendix-III)\" \"Bank Mandate Form (Appendix-IV)\""
+      ],
+      "category": "documents",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_7",
+      "question": "How do I apply for Pragati Scholarship Scheme For Girl Students (Technical Diploma)?",
+      "reference": "Pragati Scholarship Scheme For Girl Students (Technical Diploma) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\"",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma"
+      ],
+      "reference_chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0"
+      ],
+      "reference_contexts": [
+        "Pragati Scholarship Scheme For Girl Students (Technical Diploma) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+      ],
+      "category": "application",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_8",
+      "question": "Who is eligible for Pre Matric Scholarship For Students With Disabilities?",
+      "reference": "Pre Matric Scholarship For Students With Disabilities [eligibility]\nclass: 9 class: 10 disability / required: true disability / minimum percentage: 40 disability / covered disabilities: \"Visual disability\" disability / covered disabilities: \"Hearing disability\" disability / covered disabilities: \"Speech disability\" disability / covered disabilities: \"Loco-motor disability\" disability / covered disabilities: \"Mental retardation\" disability / covered disabilities: \"Other specified disabilities under the Schedule of the Rights of Persons with Disabilities Act, 2016\" parent guardian income / operator: \"<=\" parent guardian income / amount inr per year: 200000 parent guardian income / source: \"all sources\" other government scholarship / must not be availing: true family sibling rule / maximum scholarship holders from family: 2 family sibling rule / third sibling eligible: false family sibling rule / twin exception: \"If the second child is a twin, scholarship is admissible to both.\" institution / allowed: \"Government school\" institution / allowed: \"School recognized by Government\" institution / allowed: \"School recognized by CBSE\" institution /\n\nPre Matric Scholarship For Students With Disabilities [eligibility]\nallowed: \"School recognized by State Board\"",
+      "expected_scheme_ids": [
+        "pre_matric_scholarship_for_students_with_disabilities"
+      ],
+      "reference_chunk_ids": [
+        "pre_matric_scholarship_for_students_with_disabilities:eligibility:0",
+        "pre_matric_scholarship_for_students_with_disabilities:eligibility:1"
+      ],
+      "reference_contexts": [
+        "Pre Matric Scholarship For Students With Disabilities [eligibility]\nclass: 9 class: 10 disability / required: true disability / minimum percentage: 40 disability / covered disabilities: \"Visual disability\" disability / covered disabilities: \"Hearing disability\" disability / covered disabilities: \"Speech disability\" disability / covered disabilities: \"Loco-motor disability\" disability / covered disabilities: \"Mental retardation\" disability / covered disabilities: \"Other specified disabilities under the Schedule of the Rights of Persons with Disabilities Act, 2016\" parent guardian income / operator: \"<=\" parent guardian income / amount inr per year: 200000 parent guardian income / source: \"all sources\" other government scholarship / must not be availing: true family sibling rule / maximum scholarship holders from family: 2 family sibling rule / third sibling eligible: false family sibling rule / twin exception: \"If the second child is a twin, scholarship is admissible to both.\" institution / allowed: \"Government school\" institution / allowed: \"School recognized by Government\" institution / allowed: \"School recognized by CBSE\" institution /",
+        "Pre Matric Scholarship For Students With Disabilities [eligibility]\nallowed: \"School recognized by State Board\""
+      ],
+      "category": "eligibility",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_9",
+      "question": "What benefits does Pre Matric Scholarship For Scheduled Tribe Students provide?",
+      "reference": "Pre Matric Scholarship For Scheduled Tribe Students [benefits]\nscholarship duration months: 10 scholarship / day scholar / monthly amount inr: 225 scholarship / hosteller / monthly amount inr: 525 books and ad hoc grant / day scholar / annual amount inr: 750 books and ad hoc grant / hosteller / annual amount inr: 1000 additional pwid allowances in private unaided schools / reader allowance for blind students / amount inr: 160 additional pwid allowances in private unaided schools / transport allowance / amount inr: 160 additional pwid allowances in private unaided schools / transport allowance / condition: \"Student with disability does not reside in a hostel within the premises of the educational institution.\" additional pwid allowances in private unaided schools / escort allowance / amount inr: 160 additional pwid allowances in private unaided schools / escort allowance / condition: \"Severely disabled student with 80% or higher disability, or day scholar/student with low extremity disability.\" additional pwid allowances in\n\nPre Matric Scholarship For Scheduled Tribe Students [benefits]\nprivate unaided schools / helper allowance / amount inr: 160 additional pwid allowances in private unaided schools / helper allowance / condition: \"Employee of the hostel provides assistance to a severely orthopedically handicapped student residing in the hostel.\" additional pwid allowances in private unaided schools / coaching allowance / amount inr: 240 additional pwid allowances in private unaided schools / coaching allowance / condition: \"Mentally retarded and mentally ill students.\"",
+      "expected_scheme_ids": [
+        "pre_matric_scholarship_for_scheduled_tribe_students"
+      ],
+      "reference_chunk_ids": [
+        "pre_matric_scholarship_for_scheduled_tribe_students:benefits:0",
+        "pre_matric_scholarship_for_scheduled_tribe_students:benefits:1"
+      ],
+      "reference_contexts": [
+        "Pre Matric Scholarship For Scheduled Tribe Students [benefits]\nscholarship duration months: 10 scholarship / day scholar / monthly amount inr: 225 scholarship / hosteller / monthly amount inr: 525 books and ad hoc grant / day scholar / annual amount inr: 750 books and ad hoc grant / hosteller / annual amount inr: 1000 additional pwid allowances in private unaided schools / reader allowance for blind students / amount inr: 160 additional pwid allowances in private unaided schools / transport allowance / amount inr: 160 additional pwid allowances in private unaided schools / transport allowance / condition: \"Student with disability does not reside in a hostel within the premises of the educational institution.\" additional pwid allowances in private unaided schools / escort allowance / amount inr: 160 additional pwid allowances in private unaided schools / escort allowance / condition: \"Severely disabled student with 80% or higher disability, or day scholar/student with low extremity disability.\" additional pwid allowances in",
+        "Pre Matric Scholarship For Scheduled Tribe Students [benefits]\nprivate unaided schools / helper allowance / amount inr: 160 additional pwid allowances in private unaided schools / helper allowance / condition: \"Employee of the hostel provides assistance to a severely orthopedically handicapped student residing in the hostel.\" additional pwid allowances in private unaided schools / coaching allowance / amount inr: 240 additional pwid allowances in private unaided schools / coaching allowance / condition: \"Mentally retarded and mentally ill students.\""
+      ],
+      "category": "benefits",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_10",
+      "question": "What documents are required for AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree)?",
+      "reference": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [documents_required]\n\"Aadhaar\" \"SSC/10th certificate and mark sheet\" \"HSC/12th certificate and mark sheet (for degree level)\" \"ITI certificate and mark sheet (for lateral entry for diploma level, if applicable)\" \"Diploma certificate and mark sheet (for lateral entry for degree level, if applicable)\" \"Category Certificate, if applicable\" \"Study/Bonafide Certificate (Appendix-I)\" \"Annual Family Income Certificate (Appendix-II)\" \"Promotion Certificate for renewal (Appendix-III)\"",
+      "expected_scheme_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree"
+      ],
+      "reference_chunk_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:documents_required:0"
+      ],
+      "reference_contexts": [
+        "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [documents_required]\n\"Aadhaar\" \"SSC/10th certificate and mark sheet\" \"HSC/12th certificate and mark sheet (for degree level)\" \"ITI certificate and mark sheet (for lateral entry for diploma level, if applicable)\" \"Diploma certificate and mark sheet (for lateral entry for degree level, if applicable)\" \"Category Certificate, if applicable\" \"Study/Bonafide Certificate (Appendix-I)\" \"Annual Family Income Certificate (Appendix-II)\" \"Promotion Certificate for renewal (Appendix-III)\""
+      ],
+      "category": "documents",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_11",
+      "question": "How do I apply for Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level?",
+      "reference": "Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level [application]\nmode: \"Online\" frequency: \"Once a year\" portal: \"UGC website / e-SARTS Scholarships-Fellowships\" steps: \"Visit the official UGC website.\" steps: \"Open the e-SARTS Scholarships-Fellowships section.\" steps: \"Select the relevant scheme and click Apply Now.\" steps: \"Fill in personal and academic details.\" steps: \"Attach the required documents.\" steps: \"Submit the application before the deadline.\"",
+      "expected_scheme_ids": [
+        "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level"
+      ],
+      "reference_chunk_ids": [
+        "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:application:0"
+      ],
+      "reference_contexts": [
+        "Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level [application]\nmode: \"Online\" frequency: \"Once a year\" portal: \"UGC website / e-SARTS Scholarships-Fellowships\" steps: \"Visit the official UGC website.\" steps: \"Open the e-SARTS Scholarships-Fellowships section.\" steps: \"Select the relevant scheme and click Apply Now.\" steps: \"Fill in personal and academic details.\" steps: \"Attach the required documents.\" steps: \"Submit the application before the deadline.\""
+      ],
+      "category": "application",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_12",
+      "question": "Who is eligible for Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE?",
+      "reference": "Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE [eligibility]\n\"Must have a valid GATE/CEED score at the time of admission.\" \"Must be admitted as a full-time scholar.\" \"Must be admitted to an AICTE-approved M.E., M.Tech., or M.Des. program in an AICTE-approved institution/university department.\" \"Scholarship is subject to the approved intake of the program.\" \"Final-year students of eligible dual-degree integrated programs may receive the scholarship from the 9th semester for one year.\"",
+      "expected_scheme_ids": [
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte"
+      ],
+      "reference_chunk_ids": [
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:eligibility:0"
+      ],
+      "reference_contexts": [
+        "Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE [eligibility]\n\"Must have a valid GATE/CEED score at the time of admission.\" \"Must be admitted as a full-time scholar.\" \"Must be admitted to an AICTE-approved M.E., M.Tech., or M.Des. program in an AICTE-approved institution/university department.\" \"Scholarship is subject to the approved intake of the program.\" \"Final-year students of eligible dual-degree integrated programs may receive the scholarship from the 9th semester for one year.\""
+      ],
+      "category": "eligibility",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_13",
+      "question": "What benefits does Scholarship for Ph.D. Students of Socially and Educationally Backward Classes provide?",
+      "reference": "Scholarship for Ph.D. Students of Socially and Educationally Backward Classes [benefits]\nscholarship assistance / MPhil: \"\u20b925,000\" scholarship assistance / PhD: \"\u20b91,00,000\"",
+      "expected_scheme_ids": [
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes"
+      ],
+      "reference_chunk_ids": [
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:benefits:0"
+      ],
+      "reference_contexts": [
+        "Scholarship for Ph.D. Students of Socially and Educationally Backward Classes [benefits]\nscholarship assistance / MPhil: \"\u20b925,000\" scholarship assistance / PhD: \"\u20b91,00,000\""
+      ],
+      "category": "benefits",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_14",
+      "question": "What documents are required for Free Education For Sports Medal Winners / Participants Of National/ International Events?",
+      "reference": "Free Education For Sports Medal Winners / Participants Of National/ International Events [documents_required]\n\"submitted_by: candidate through University/College\" \"documents: Application in the prescribed format\" \"documents: Certificate of participation or medal-winning as per the eligibility criteria, attested by the Registrar/Principal\" \"submitted_by: University/College/Institution to UGC\" \"documents: Statement giving names of students selected for the scholarship along with receipt of the scholarship amount\" \"documents: Progress Report after completion of the first year covering sports performance and academics\" \"documents: Utilization Certificate for the previous grant released\" \"documents: Certificate giving justification for continuance of the scholarship issued by the Director/Head of the Department and duly forwarded by the Registrar/Principal\"",
+      "expected_scheme_ids": [
+        "free_education_for_sports_medal_winners_participants_of_national_international_events"
+      ],
+      "reference_chunk_ids": [
+        "free_education_for_sports_medal_winners_participants_of_national_international_events:documents_required:0"
+      ],
+      "reference_contexts": [
+        "Free Education For Sports Medal Winners / Participants Of National/ International Events [documents_required]\n\"submitted_by: candidate through University/College\" \"documents: Application in the prescribed format\" \"documents: Certificate of participation or medal-winning as per the eligibility criteria, attested by the Registrar/Principal\" \"submitted_by: University/College/Institution to UGC\" \"documents: Statement giving names of students selected for the scholarship along with receipt of the scholarship amount\" \"documents: Progress Report after completion of the first year covering sports performance and academics\" \"documents: Utilization Certificate for the previous grant released\" \"documents: Certificate giving justification for continuance of the scholarship issued by the Director/Head of the Department and duly forwarded by the Registrar/Principal\""
+      ],
+      "category": "documents",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_15",
+      "question": "How do I apply for ICAR - Post Matric Scholarship For Scheduled Caste / Scheduled Tribes Candidates?",
+      "reference": "ICAR - Post Matric Scholarship For Scheduled Caste / Scheduled Tribes Candidates [application]\nmode: \"Offline\" process: \"The scholarship amount and contingent grant are remitted to respective institutions by the Council based on demand received from each institution through the Registrar/Comptroller of the University in the prescribed proforma.\"",
+      "expected_scheme_ids": [
+        "icar_post_matric_scholarship_for_scheduled_caste_scheduled_tribes_candidates"
+      ],
+      "reference_chunk_ids": [
+        "icar_post_matric_scholarship_for_scheduled_caste_scheduled_tribes_candidates:application:0"
+      ],
+      "reference_contexts": [
+        "ICAR - Post Matric Scholarship For Scheduled Caste / Scheduled Tribes Candidates [application]\nmode: \"Offline\" process: \"The scholarship amount and contingent grant are remitted to respective institutions by the Council based on demand received from each institution through the Registrar/Comptroller of the University in the prescribed proforma.\""
+      ],
+      "category": "application",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "scheme_16",
+      "question": "Who is eligible for National Means-cum-Merit Scholarship Scheme?",
+      "reference": "National Means-cum-Merit Scholarship Scheme [eligibility]\nfresh application / applicant must be student: true fresh application / parental income / operator: \"<=\" fresh application / parental income / amount inr per year: 350000 fresh application / parental income / source: \"all sources\" fresh application / class 7 marks / general / operator: \">=\" fresh application / class 7 marks / general / percentage: 55 fresh application / class 7 marks / sc st / operator: \">=\" fresh application / class 7 marks / sc st / percentage: 50 fresh application / school type: \"Government\" fresh application / school type: \"Government-aided\" fresh application / school type: \"Local body\" fresh application / student status: \"Regular\" fresh application / reservation: \"As per State/UT Government norms\"",
+      "expected_scheme_ids": [
+        "national_means_cum_merit_scholarship_scheme"
+      ],
+      "reference_chunk_ids": [
+        "national_means_cum_merit_scholarship_scheme:eligibility:0"
+      ],
+      "reference_contexts": [
+        "National Means-cum-Merit Scholarship Scheme [eligibility]\nfresh application / applicant must be student: true fresh application / parental income / operator: \"<=\" fresh application / parental income / amount inr per year: 350000 fresh application / parental income / source: \"all sources\" fresh application / class 7 marks / general / operator: \">=\" fresh application / class 7 marks / general / percentage: 55 fresh application / class 7 marks / sc st / operator: \">=\" fresh application / class 7 marks / sc st / percentage: 50 fresh application / school type: \"Government\" fresh application / school type: \"Government-aided\" fresh application / school type: \"Local body\" fresh application / student status: \"Regular\" fresh application / reservation: \"As per State/UT Government norms\""
+      ],
+      "category": "eligibility",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "pragati_income",
+      "question": "What is the annual family income limit for Pragati technical degree scholarship?",
+      "reference": "Pragati Scholarship Scheme For Girl Students (Technical Degree) [eligibility]\nstudent: true gender: \"Female\" year of study: \"First year of degree course\" year of study: \"Second year through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000 maximum girl children per family: 2 eligible regions: \"Andaman and Nicobar Islands\" eligible regions: \"Jammu and Kashmir\" eligible regions: \"Ladakh\" eligible regions: \"Dadra and Nagar Haveli & Daman and Diu\" eligible regions: \"Lakshadweep\" eligible regions: \"Arunachal Pradesh\" eligible regions: \"Assam\" eligible regions: \"Manipur\" eligible regions: \"Meghalaya\" eligible regions: \"Mizoram\" eligible regions: \"Nagaland\" eligible regions: \"Sikkim\" eligible regions: \"Tripura\"",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree"
+      ],
+      "reference_chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0"
+      ],
+      "reference_contexts": [
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [eligibility]\nstudent: true gender: \"Female\" year of study: \"First year of degree course\" year of study: \"Second year through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000 maximum girl children per family: 2 eligible regions: \"Andaman and Nicobar Islands\" eligible regions: \"Jammu and Kashmir\" eligible regions: \"Ladakh\" eligible regions: \"Dadra and Nagar Haveli & Daman and Diu\" eligible regions: \"Lakshadweep\" eligible regions: \"Arunachal Pradesh\" eligible regions: \"Assam\" eligible regions: \"Manipur\" eligible regions: \"Meghalaya\" eligible regions: \"Mizoram\" eligible regions: \"Nagaland\" eligible regions: \"Sikkim\" eligible regions: \"Tripura\""
+      ],
+      "category": "eligibility",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "saksham_conditions",
+      "question": "What disability, family income and admission conditions apply to the Saksham degree scholarship?",
+      "reference": "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [eligibility]\n\"Admitted to first year of a degree-level course, or second year through lateral entry.\" \"Institution must be AICTE-approved for the respective year.\" \"Disability must be at least 40%.\" \"Family income from all sources must not exceed \u20b98 lakh per annum during the current financial year.\" \"Valid income certificate issued by the State/UT Government is required.\"",
+      "expected_scheme_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree"
+      ],
+      "reference_chunk_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:eligibility:0"
+      ],
+      "reference_contexts": [
+        "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [eligibility]\n\"Admitted to first year of a degree-level course, or second year through lateral entry.\" \"Institution must be AICTE-approved for the respective year.\" \"Disability must be at least 40%.\" \"Family income from all sources must not exceed \u20b98 lakh per annum during the current financial year.\" \"Valid income certificate issued by the State/UT Government is required.\""
+      ],
+      "category": "multi_condition",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "indira_apply_documents",
+      "question": "How do I apply for the Indira Gandhi single girl child scholarship and what documents must I submit?",
+      "reference": "Post Graduate Indira Gandhi Scholarship For Single Girl Child [documents_required]\n\"submitted_by: student\" \"documents: Aadhaar Card\" \"documents: Proof of admission into a recognized Master's degree course in an institute located in India and recognized by the UGC\" \"documents: Joining report as per Annexure-I\" \"documents: Affidavit regarding Single Girl Child status as per Annexure-II\" \"documents: Copy of the Bank Passbook\" \"documents: Birth Certificate or Class 10th Marksheet\" \"submitted_by: institution\" \"documents: Progress Report after completion of the first year along with the percentage of marks obtained by the candidate\" \"documents: Funds Utilization Certificate after completion of the first year\"\n\nPost Graduate Indira Gandhi Scholarship For Single Girl Child [application]\nmode: \"Online\" portal: \"National Scholarship Portal\" timing: \"Applications are invited once a year after initiation of the application process and notice published on the UGC website.\" steps: \"Candidates fulfilling the eligibility conditions apply online on the National Scholarship Portal after initiation of the application process.\" steps: \"The host institution verifies the online application.\" incomplete application / accepted: false incomplete application / effect: \"Incomplete applications will be summarily rejected.\" verification: \"Only verified online applications will be considered for the award of scholarship.\"",
+      "expected_scheme_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child"
+      ],
+      "reference_chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:documents_required:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:application:0"
+      ],
+      "reference_contexts": [
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [documents_required]\n\"submitted_by: student\" \"documents: Aadhaar Card\" \"documents: Proof of admission into a recognized Master's degree course in an institute located in India and recognized by the UGC\" \"documents: Joining report as per Annexure-I\" \"documents: Affidavit regarding Single Girl Child status as per Annexure-II\" \"documents: Copy of the Bank Passbook\" \"documents: Birth Certificate or Class 10th Marksheet\" \"submitted_by: institution\" \"documents: Progress Report after completion of the first year along with the percentage of marks obtained by the candidate\" \"documents: Funds Utilization Certificate after completion of the first year\"",
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [application]\nmode: \"Online\" portal: \"National Scholarship Portal\" timing: \"Applications are invited once a year after initiation of the application process and notice published on the UGC website.\" steps: \"Candidates fulfilling the eligibility conditions apply online on the National Scholarship Portal after initiation of the application process.\" steps: \"The host institution verifies the online application.\" incomplete application / accepted: false incomplete application / effect: \"Incomplete applications will be summarily rejected.\" verification: \"Only verified online applications will be considered for the award of scholarship.\""
+      ],
+      "category": "multi_chunk",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "compare_pragati_saksham",
+      "question": "Compare the benefits and application procedures of Pragati technical degree and Saksham degree scholarships.",
+      "reference": "Pragati Scholarship Scheme For Girl Students (Technical Degree) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\"\n\nPragati Scholarship Scheme For Girl Students (Technical Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\"\n\nAICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [benefits]\namount: \"\u20b950,000 per annum\" uses: \"college fee\" uses: \"computer\" uses: \"stationery\" uses: \"books\" uses: \"equipment\" uses: \"software\" disbursement: \"DBT annually\" renewal: \"Renewal through National Scholarship Portal with passing certificate/mark sheet and institution head's letter.\"\n\nAICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" steps: \"Keep required documents ready and open the NSP website.\" steps: \"Click New Registration and accept the undertaking.\" steps: \"Complete registration and receive the Application ID and password.\" steps: \"Log in using the application credentials and OTP.\" steps: \"Open the Application Form, fill required details, and upload documents.\" steps: \"Save as Draft or Final Submit the application.\"",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree"
+      ],
+      "reference_chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:benefits:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:application:0"
+      ],
+      "reference_contexts": [
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\"",
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\"",
+        "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [benefits]\namount: \"\u20b950,000 per annum\" uses: \"college fee\" uses: \"computer\" uses: \"stationery\" uses: \"books\" uses: \"equipment\" uses: \"software\" disbursement: \"DBT annually\" renewal: \"Renewal through National Scholarship Portal with passing certificate/mark sheet and institution head's letter.\"",
+        "AICTE \u2013 Saksham Scholarship Scheme For Specially-Abled Student (Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" steps: \"Keep required documents ready and open the NSP website.\" steps: \"Click New Registration and accept the undertaking.\" steps: \"Complete registration and receive the Application ID and password.\" steps: \"Log in using the application credentials and OTP.\" steps: \"Open the Application Form, fill required details, and upload documents.\" steps: \"Save as Draft or Final Submit the application.\""
+      ],
+      "category": "multi_scheme",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "girls_discovery",
+      "question": "Which scholarships in the knowledge base support girl students?",
+      "reference": "Post Graduate Indira Gandhi Scholarship For Single Girl Child [benefits]\nfellowship amount / amount: 36200 fellowship amount / currency: \"INR\" fellowship amount / frequency: \"per annum\" duration: \"Two years only, i.e. the full duration of a PG course.\" fresh scholarships per year: 3000 payment mode: \"DBT\" payment frequency: \"annual\" additional grants / available: false additional grants / excluded items: \"hostel charges\" additional grants / excluded items: \"medical charges\"\n\nPost Graduate Indira Gandhi Scholarship For Single Girl Child [eligibility]\nfresh application / citizenship / operator: \"equals\" fresh application / citizenship / value: \"India\" fresh application / gender / operator: \"equals\" fresh application / gender / value: \"female\" fresh application / single girl child status / operator: \"required\" fresh application / single girl child status / conditions: \"applicant is the only girl child in the family\" fresh application / single girl child status / conditions: \"girl students without any brothers may apply\" fresh application / single girl child status / conditions: \"twin daughters/fraternal daughters may apply\" fresh application / age / operator: \"<=\" fresh application / age / years: 30 fresh application / age / reference point: \"time of admission in the first year of PG course\" fresh application / admission / course level: \"Master's degree\" fresh application / admission / year: \"first year\" fresh application / admission / study mode: \"regular\" fresh application / admission / attendance: \"full-time\" fresh\n\nPost Graduate Indira Gandhi Scholarship For Single Girl Child [eligibility]\napplication / admission / institution requirement: \"designated university or post-graduate college\" fresh application / admission / institution location: \"India\" fresh application / course type / operator: \"equals\" fresh application / course type / value: \"non-professional\" fresh application / institution / recognized: true fresh application / institution / attendance: \"regular classes\" fresh application / distance education / operator: \"not_equals\" fresh application / distance education / value: true\n\nPost Graduate Indira Gandhi Scholarship For Single Girl Child [application]\nmode: \"Online\" portal: \"National Scholarship Portal\" timing: \"Applications are invited once a year after initiation of the application process and notice published on the UGC website.\" steps: \"Candidates fulfilling the eligibility conditions apply online on the National Scholarship Portal after initiation of the application process.\" steps: \"The host institution verifies the online application.\" incomplete application / accepted: false incomplete application / effect: \"Incomplete applications will be summarily rejected.\" verification: \"Only verified online applications will be considered for the award of scholarship.\"\n\nPragati Scholarship Scheme For Girl Students (Technical Degree) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\"\n\nPragati Scholarship Scheme For Girl Students (Technical Degree) [eligibility]\nstudent: true gender: \"Female\" year of study: \"First year of degree course\" year of study: \"Second year through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000 maximum girl children per family: 2 eligible regions: \"Andaman and Nicobar Islands\" eligible regions: \"Jammu and Kashmir\" eligible regions: \"Ladakh\" eligible regions: \"Dadra and Nagar Haveli & Daman and Diu\" eligible regions: \"Lakshadweep\" eligible regions: \"Arunachal Pradesh\" eligible regions: \"Assam\" eligible regions: \"Manipur\" eligible regions: \"Meghalaya\" eligible regions: \"Mizoram\" eligible regions: \"Nagaland\" eligible regions: \"Sikkim\" eligible regions: \"Tripura\"\n\nPragati Scholarship Scheme For Girl Students (Technical Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\"\n\nPragati Scholarship Scheme For Girl Students (Technical Diploma) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"3 years\" maximum duration second year lateral entry: \"2 years\" purpose: \"College fee\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\" additional hostel or medical grant: false\n\nPragati Scholarship Scheme For Girl Students (Technical Diploma) [eligibility]\nstudent: true gender: \"Female\" year of study: \"First year of diploma course\" year of study: \"Second year of diploma course through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000 maximum girl children per family: 2 eligible regions: \"Andaman and Nicobar Islands\" eligible regions: \"Jammu and Kashmir\" eligible regions: \"Ladakh\" eligible regions: \"Dadra and Nagar Haveli & Daman and Diu\" eligible regions: \"Lakshadweep\" eligible regions: \"Arunachal Pradesh\" eligible regions: \"Assam\" eligible regions: \"Manipur\" eligible regions: \"Meghalaya\" eligible regions: \"Mizoram\" eligible regions: \"Nagaland\" eligible regions: \"Sikkim\" eligible regions: \"Tripura\"\n\nPragati Scholarship Scheme For Girl Students (Technical Diploma) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\"",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child"
+      ],
+      "reference_chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:benefits:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:1",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:eligibility:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0"
+      ],
+      "reference_contexts": [
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [benefits]\nfellowship amount / amount: 36200 fellowship amount / currency: \"INR\" fellowship amount / frequency: \"per annum\" duration: \"Two years only, i.e. the full duration of a PG course.\" fresh scholarships per year: 3000 payment mode: \"DBT\" payment frequency: \"annual\" additional grants / available: false additional grants / excluded items: \"hostel charges\" additional grants / excluded items: \"medical charges\"",
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [eligibility]\nfresh application / citizenship / operator: \"equals\" fresh application / citizenship / value: \"India\" fresh application / gender / operator: \"equals\" fresh application / gender / value: \"female\" fresh application / single girl child status / operator: \"required\" fresh application / single girl child status / conditions: \"applicant is the only girl child in the family\" fresh application / single girl child status / conditions: \"girl students without any brothers may apply\" fresh application / single girl child status / conditions: \"twin daughters/fraternal daughters may apply\" fresh application / age / operator: \"<=\" fresh application / age / years: 30 fresh application / age / reference point: \"time of admission in the first year of PG course\" fresh application / admission / course level: \"Master's degree\" fresh application / admission / year: \"first year\" fresh application / admission / study mode: \"regular\" fresh application / admission / attendance: \"full-time\" fresh",
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [eligibility]\napplication / admission / institution requirement: \"designated university or post-graduate college\" fresh application / admission / institution location: \"India\" fresh application / course type / operator: \"equals\" fresh application / course type / value: \"non-professional\" fresh application / institution / recognized: true fresh application / institution / attendance: \"regular classes\" fresh application / distance education / operator: \"not_equals\" fresh application / distance education / value: true",
+        "Post Graduate Indira Gandhi Scholarship For Single Girl Child [application]\nmode: \"Online\" portal: \"National Scholarship Portal\" timing: \"Applications are invited once a year after initiation of the application process and notice published on the UGC website.\" steps: \"Candidates fulfilling the eligibility conditions apply online on the National Scholarship Portal after initiation of the application process.\" steps: \"The host institution verifies the online application.\" incomplete application / accepted: false incomplete application / effect: \"Incomplete applications will be summarily rejected.\" verification: \"Only verified online applications will be considered for the award of scholarship.\"",
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\"",
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [eligibility]\nstudent: true gender: \"Female\" year of study: \"First year of degree course\" year of study: \"Second year through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000 maximum girl children per family: 2 eligible regions: \"Andaman and Nicobar Islands\" eligible regions: \"Jammu and Kashmir\" eligible regions: \"Ladakh\" eligible regions: \"Dadra and Nagar Haveli & Daman and Diu\" eligible regions: \"Lakshadweep\" eligible regions: \"Arunachal Pradesh\" eligible regions: \"Assam\" eligible regions: \"Manipur\" eligible regions: \"Meghalaya\" eligible regions: \"Mizoram\" eligible regions: \"Nagaland\" eligible regions: \"Sikkim\" eligible regions: \"Tripura\"",
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\"",
+        "Pragati Scholarship Scheme For Girl Students (Technical Diploma) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"3 years\" maximum duration second year lateral entry: \"2 years\" purpose: \"College fee\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\" additional hostel or medical grant: false",
+        "Pragati Scholarship Scheme For Girl Students (Technical Diploma) [eligibility]\nstudent: true gender: \"Female\" year of study: \"First year of diploma course\" year of study: \"Second year of diploma course through lateral entry\" institution requirement: \"AICTE-approved institution\" family income max annual inr: 800000 maximum girl children per family: 2 eligible regions: \"Andaman and Nicobar Islands\" eligible regions: \"Jammu and Kashmir\" eligible regions: \"Ladakh\" eligible regions: \"Dadra and Nagar Haveli & Daman and Diu\" eligible regions: \"Lakshadweep\" eligible regions: \"Arunachal Pradesh\" eligible regions: \"Assam\" eligible regions: \"Manipur\" eligible regions: \"Meghalaya\" eligible regions: \"Mizoram\" eligible regions: \"Nagaland\" eligible regions: \"Sikkim\" eligible regions: \"Tripura\"",
+        "Pragati Scholarship Scheme For Girl Students (Technical Diploma) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+      ],
+      "category": "multi_scheme",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "pragati_source",
+      "question": "Explain Pragati technical degree scholarship benefits and include the supporting scheme source.",
+      "reference": "Pragati Scholarship Scheme For Girl Students (Technical Degree) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\"",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree"
+      ],
+      "reference_chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0"
+      ],
+      "reference_contexts": [
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [benefits]\namount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\""
+      ],
+      "category": "provenance",
+      "expected_statuses": [
+        "success"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "missing_deadline",
+      "question": "What is the application deadline for Pragati technical degree scholarship?",
+      "reference": "The supplied Pragati technical degree application information does not specify an application deadline. Do not invent a date.",
+      "expected_scheme_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree"
+      ],
+      "reference_chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0"
+      ],
+      "reference_contexts": [
+        "Pragati Scholarship Scheme For Girl Students (Technical Degree) [application]\nmode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+      ],
+      "category": "unavailable",
+      "expected_statuses": [
+        "insufficient_evidence"
+      ],
+      "score_ragas": true
+    },
+    {
+      "id": "ambiguous_choice",
+      "question": "Which scholarship should I apply for?",
+      "reference": "Ask an optional natural-language clarification about the scholarship information needed, without asserting eligibility or requiring a personal profile.",
+      "expected_scheme_ids": [],
+      "reference_chunk_ids": [],
+      "reference_contexts": [],
+      "category": "ambiguous",
+      "expected_statuses": [
+        "insufficient_evidence"
+      ],
+      "score_ragas": false
+    },
+    {
+      "id": "math",
+      "question": "What is 1 + 1?",
+      "reference": "Redirect to the scholarship knowledge base without answering the unrelated question, retrieval or provider calls.",
+      "expected_scheme_ids": [],
+      "reference_chunk_ids": [],
+      "reference_contexts": [],
+      "category": "out_of_domain",
+      "expected_statuses": [
+        "out_of_scope"
+      ],
+      "score_ragas": false
+    },
+    {
+      "id": "joke",
+      "question": "Tell me a joke.",
+      "reference": "Redirect to the scholarship knowledge base without answering the unrelated question, retrieval or provider calls.",
+      "expected_scheme_ids": [],
+      "reference_chunk_ids": [],
+      "reference_contexts": [],
+      "category": "out_of_domain",
+      "expected_statuses": [
+        "out_of_scope"
+      ],
+      "score_ragas": false
+    },
+    {
+      "id": "politics",
+      "question": "Who is the Prime Minister?",
+      "reference": "Redirect to the scholarship knowledge base without answering the unrelated question, retrieval or provider calls.",
+      "expected_scheme_ids": [],
+      "reference_chunk_ids": [],
+      "reference_contexts": [],
+      "category": "out_of_domain",
+      "expected_statuses": [
+        "out_of_scope"
+      ],
+      "score_ragas": false
+    }
+  ]
+}

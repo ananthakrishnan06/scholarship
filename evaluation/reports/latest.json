@@ -1,0 +1,477 @@
+{
+  "created_at": "2026-10-15T17:16:01.821471+00:00",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "index": {
+    "ready": true,
+    "version": "faac7d4df3034bafae61db8e52553481",
+    "chunks": 139,
+    "reason": null
+  },
+  "mode": "semantic_retrieval",
+  "results": [
+    {
+      "id": "q01",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:documents_required:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.015900004655122757,
+        "vector_retrieval": 34.55860004760325,
+        "retrieval_total": 8596.606899984181
+      }
+    },
+    {
+      "id": "q02",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:benefits:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.010699965059757233,
+        "vector_retrieval": 0.951100024394691,
+        "retrieval_total": 19.753100001253188
+      }
+    },
+    {
+      "id": "q03",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:application:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.01109996810555458,
+        "vector_retrieval": 0.8216999704018235,
+        "retrieval_total": 21.05799992568791
+      }
+    },
+    {
+      "id": "q04",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:eligibility:1",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:exclusions:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:target_groups:0",
+        "post_graduate_indira_gandhi_scholarship_for_single_girl_child:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.009199953638017178,
+        "vector_retrieval": 0.9814000222831964,
+        "retrieval_total": 18.400699947960675
+      }
+    },
+    {
+      "id": "q05",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:eligibility:0",
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:target_groups:0",
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:benefits:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.010999967344105244,
+        "vector_retrieval": 0.3971999976783991,
+        "retrieval_total": 18.987400108017027
+      }
+    },
+    {
+      "id": "q06",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:eligibility:0",
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:target_groups:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.0076999422162771225,
+        "vector_retrieval": 0.3253000322729349,
+        "retrieval_total": 18.793400027789176
+      }
+    },
+    {
+      "id": "q07",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.011399970389902592,
+        "vector_retrieval": 0.3608999541029334,
+        "retrieval_total": 20.147399976849556
+      }
+    },
+    {
+      "id": "q08",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pm_yasasvi_top_class_college_education_for_obc_ebc_and_dnt_students:benefits:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.01479999627918005,
+        "vector_retrieval": 0.47470000572502613,
+        "retrieval_total": 20.76609991490841
+      }
+    },
+    {
+      "id": "q09",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:eligibility:0",
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:exclusions:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.012499978765845299,
+        "vector_retrieval": 0.31340005807578564,
+        "retrieval_total": 35.043800016865134
+      }
+    },
+    {
+      "id": "q10",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:eligibility:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:eligibility:0",
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:exclusions:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:exclusions:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.016200006939470768,
+        "vector_retrieval": 0.5413999315351248,
+        "retrieval_total": 24.949899991042912
+      }
+    },
+    {
+      "id": "q11",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:application:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.007700058631598949,
+        "vector_retrieval": 0.5049000028520823,
+        "retrieval_total": 13.57129996176809
+      }
+    },
+    {
+      "id": "q12",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.012999982573091984,
+        "vector_retrieval": 0.3981000045314431,
+        "retrieval_total": 20.375399966724217
+      }
+    },
+    {
+      "id": "q13",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:eligibility:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:exclusions:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.008599949069321156,
+        "vector_retrieval": 0.3595000598579645,
+        "retrieval_total": 17.35699991695583
+      }
+    },
+    {
+      "id": "q14",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:eligibility:0",
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:exclusions:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.004300032742321491,
+        "vector_retrieval": 0.519900000654161,
+        "retrieval_total": 11.006099986843765
+      }
+    },
+    {
+      "id": "q15",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:benefits:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.008600065484642982,
+        "vector_retrieval": 0.354300020262599,
+        "retrieval_total": 16.87229995150119
+      }
+    },
+    {
+      "id": "q16",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "aicte_saksham_scholarship_scheme_for_specially_abled_student_degree:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.008399947546422482,
+        "vector_retrieval": 0.35200000274926424,
+        "retrieval_total": 19.50509997550398
+      }
+    },
+    {
+      "id": "q17",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:eligibility:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:exclusions:0",
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:target_groups:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.010399962775409222,
+        "vector_retrieval": 0.431500026024878,
+        "retrieval_total": 17.013999982737005
+      }
+    },
+    {
+      "id": "q18",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.011699972674250603,
+        "vector_retrieval": 0.9977000299841166,
+        "retrieval_total": 16.94929995574057
+      }
+    },
+    {
+      "id": "q19",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.002900022082030773,
+        "vector_retrieval": 0.3635999746620655,
+        "retrieval_total": 8.685500011779368
+      }
+    },
+    {
+      "id": "q20",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.008800067007541656,
+        "vector_retrieval": 0.354000017978251,
+        "retrieval_total": 17.820099950768054
+      }
+    },
+    {
+      "id": "q21",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pre_matric_scholarship_for_students_with_disabilities:eligibility:0",
+        "pre_matric_scholarship_for_students_with_disabilities:eligibility:1",
+        "pre_matric_scholarship_for_students_with_disabilities:exclusions:0",
+        "pre_matric_scholarship_for_students_with_disabilities:target_groups:0",
+        "pre_matric_scholarship_for_students_with_disabilities:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.007500057108700275,
+        "vector_retrieval": 26.35159995406866,
+        "retrieval_total": 42.816099943593144
+      }
+    },
+    {
+      "id": "q22",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pre_matric_scholarship_for_students_with_disabilities:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.007899943739175797,
+        "vector_retrieval": 0.9058000287041068,
+        "retrieval_total": 16.00000006146729
+      }
+    },
+    {
+      "id": "q23",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_matric_scholarship_students_with_disabilities:benefits:0",
+        "post_matric_scholarship_students_with_disabilities:benefits:1",
+        "pre_matric_scholarship_for_students_with_disabilities:benefits:0",
+        "post_matric_scholarship_students_with_disabilities:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.010899966582655907,
+        "vector_retrieval": 13.611800037324429,
+        "retrieval_total": 29.4319000095129
+      }
+    },
+    {
+      "id": "q24",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "pre_matric_scholarship_for_scheduled_tribe_students:eligibility:0",
+        "pre_matric_scholarship_for_scheduled_tribe_students:exclusions:0",
+        "pre_matric_scholarship_for_scheduled_tribe_students:target_groups:0",
+        "pre_matric_scholarship_for_scheduled_tribe_students:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.003400025889277458,
+        "vector_retrieval": 14.157600002363324,
+        "retrieval_total": 24.242800078354776
+      }
+    },
+    {
+      "id": "q25",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:eligibility:0",
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:target_groups:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.008699949830770493,
+        "vector_retrieval": 0.37649995647370815,
+        "retrieval_total": 16.347500029951334
+      }
+    },
+    {
+      "id": "q26",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:application:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.008299946784973145,
+        "vector_retrieval": 0.3521000035107136,
+        "retrieval_total": 18.747100024484098
+      }
+    },
+    {
+      "id": "q27",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "icar_post_matric_scholarship_for_scheduled_caste_scheduled_tribes_candidates:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.00300002284348011,
+        "vector_retrieval": 8.180700009688735,
+        "retrieval_total": 16.19570003822446
+      }
+    },
+    {
+      "id": "q28",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "icar_post_matric_scholarship_for_scheduled_caste_scheduled_tribes_candidates:benefits:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.005300040356814861,
+        "vector_retrieval": 0.8165000472217798,
+        "retrieval_total": 10.258299997076392
+      }
+    },
+    {
+      "id": "q29",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "national_means_cum_merit_scholarship_scheme:eligibility:0",
+        "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:eligibility:0",
+        "national_means_cum_merit_scholarship_scheme:exclusions:0",
+        "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:exclusions:0",
+        "national_means_cum_merit_scholarship_scheme:target_groups:0",
+        "national_means_cum_merit_scholarship_scheme:important_notes:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.003200024366378784,
+        "vector_retrieval": 9.612899972125888,
+        "retrieval_total": 18.523799953982234
+      }
+    },
+    {
+      "id": "q30",
+      "retrieval_hit": true,
+      "passed": true,
+      "chunk_ids": [
+        "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:documents_required:0",
+        "pradhan_mantri_uchchatar_shiksha_protsahan_pm_usp_central_sector_scheme_of_scholarship_for_college_and_university_students:documents_required:0"
+      ],
+      "warnings": [],
+      "timings_ms": {
+        "embedding": 0.004200031980872154,
+        "vector_retrieval": 23.509499966166914,
+        "retrieval_total": 32.16010006144643
+      }
+    }
+  ],
+  "limitations": "Retrieval-only measurements; no generation, answer accuracy or eligibility-decision score is claimed.",
+  "passed": 30,
+  "total": 30,
+  "latency_ms": {
+    "p50": 18.77,
+    "p95": 39.319,
+    "p99": 6116.008
+  },
+  "elapsed_seconds": 9.191
+}

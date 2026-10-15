@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-10-01T10:56:31.818Z",
+  "browser": "Edge",
+  "passed": true,
+  "outside_request_id": "c8dea47e-5f0a-4ccc-87e2-607ee81f844a",
+  "rag_request_id": "e03a2fa3-88c7-4633-9cac-8a88ac9a8401",
+  "outside_status": "out_of_scope",
+  "rag_status": "success",
+  "actual_generated_text_rendered": true,
+  "source_link": "#/scholarships/aicte_saksham_scholarship_scheme_for_specially_abled_student_degree",
+  "source_page_matches": true,
+  "conversation_restored": true,
+  "screenshots": [
+    "var/demo-assistant-live.png",
+    "var/demo-scheme-source.png"
+  ],
+  "outside_retrieval_calls": 0,
+  "outside_llm_calls": 0,
+  "outside_usage": [],
+  "rag_retrieval_calls": 1,
+  "rag_llm_calls": 2,
+  "rag_usage": [
+    {
+      "phase": "generation",
+      "status": "FAILED",
+      "input_tokens": 867,
+      "output_tokens": 593,
+      "latency_ms": 3716.7075000033947
+    },
+    {
+      "phase": "generation",
+      "status": "SUCCESS",
+      "input_tokens": 1033,
+      "output_tokens": 255,
+      "latency_ms": 1937.352799999644
+    }
+  ],
+  "note": "The real browser procedure answer used one failed quote-validation generation and one successful bounded repair; both calls are counted."
+}

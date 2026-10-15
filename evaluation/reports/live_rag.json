@@ -1,0 +1,811 @@
+{
+  "created_at": "2026-10-01T08:42:08.456495+00:00",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "index": {
+    "ready": true,
+    "version": "faac7d4df3034bafae61db8e52553481",
+    "chunks": 139,
+    "reason": null
+  },
+  "mode": "live_rag",
+  "results": [
+    {
+      "id": "pragati_overview",
+      "question": "What is the Pragati Scholarship?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "The Pragati Scholarship includes schemes designed for girl students pursuing technical education, specifically covering technical degrees and technical diplomas. \n\nFor both the technical degree and technical diploma schemes, the annual scholarship amount is INR 50,000, provided as a lump sum. The funds can be used for purposes such as college fees, a computer, stationery, books, equipment, and software. Applications for both programs are submitted online through the National Scholarship Portal (NSP), and payment status can be tracked via PFMS.\n\nKey details for each program include:\n\nPragati Scholarship Scheme For Girl Students (Technical Degree):\n- Target group: Girl students\n- Maximum duration: 4 years for first-year admission, or 3 years for second-year lateral entry.\n\nPragati Scholarship Scheme For Girl Students (Technical Diploma):\n- Target group: Girl students\n- Maximum duration: 3 years for first-year admission, or 2 years for second-year lateral entry.\n\nGeneral exclusions and conditions apply to both schemes, such as:\n- Students who fail or drop out in a subsequent year are not eligible for further scholarship.\n- Receiving financial assistance, salary, stipend, or another scholarship from a different source during the course makes a student ineligible to continue.\n- A gap of more than two years between passing the qualifying examination and admission is not allowed.\n- No more than two girl children from the same family can receive the scholarship.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"3 years\" maximum duration second year lateral entry: \"2 years\" purpose: \"College fee\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\" additional hostel or medical grant: false"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:target_groups:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "\"Girl Student\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:target_groups:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "\"Girl Student\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:exclusions:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "\"Student who fails or drops out in a subsequent year is not eligible for further scholarship.\" \"Student receiving scholarship, emoluments, salary, stipend or other financial assistance from another source during the course will have the scholarship discontinued.\" \"Gap of more than two years between passing the qualifying examination and admission session.\" \"More than two girl children from the same family cannot receive the scholarship.\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:exclusions:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "\"Student who fails or drops out in a subsequent year is not eligible for further scholarship.\" \"Student receiving scholarship, emoluments, salary, stipend or other financial assistance from another source during the course is not eligible to continue.\" \"Gap of more than two years between passing the qualifying examination and admission to the degree course.\" \"More than two girl children from the same family cannot receive the scholarship.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-pragati_overview",
+        "session_id": "6d669476-eede-43e4-ace9-8a867e2176d6"
+      },
+      "latency_ms": 25906.539
+    },
+    {
+      "id": "pragati_amount",
+      "question": "How much does Pragati provide?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "The Pragati Scholarship Scheme provides an annual amount of INR 50,000 for both technical diploma and technical degree courses. This amount is given as a lump sum and can be used for college fees, a computer, stationery, books, equipment, and software.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"3 years\" maximum duration second year lateral entry: \"2 years\" purpose: \"College fee\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\" additional hostel or medical grant: false"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-pragati_amount",
+        "session_id": "b1eee950-8bfb-4010-a8e9-dee5d30543a0"
+      },
+      "latency_ms": 4847.78
+    },
+    {
+      "id": "gate_criteria",
+      "question": "Who is eligible for the GATE/GPAT scholarship?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "To be eligible for the Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE, students must meet the following criteria:\n\n- Must have a valid GATE/CEED score at the time of admission.\n- Must be admitted as a full-time scholar to an AICTE-approved M.E., M.Tech., or M.Des. program in an AICTE-approved institution or university department. The scholarship is subject to the approved intake of the program.\n- Final-year students of eligible dual-degree integrated programs may receive the scholarship from the 9th semester for one year.\n\nThere are also specific exclusions to keep in mind:\n\n- Foreign students are not eligible.\n- Sponsored candidates are not eligible.\n- Candidates admitted through management quota are not eligible.\n- Students receiving financial assistance from another organization cannot receive the AICTE scholarship during the period of such assistance.\n- Passed-out students taking second-time admission after re-qualifying GATE/CEED who already received an AICTE or other centrally funded institution scholarship are not eligible.\n\nThe scholarship authority makes the final eligibility decision, so please check with official channels for verification.",
+        "sources": [
+          {
+            "scheme_id": "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte",
+            "scheme_name": "Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:eligibility:0",
+            "original_record_key": "scheme_13",
+            "excerpt": "\"Must have a valid GATE/CEED score at the time of admission.\" \"Must be admitted as a full-time scholar.\" \"Must be admitted to an AICTE-approved M.E., M.Tech., or M.Des. program in an AICTE-approved institution/university department.\" \"Scholarship is subject to the approved intake of the program.\" \"Final-year students of eligible dual-degree integrated programs may receive the scholarship from the 9th semester for one year.\""
+          },
+          {
+            "scheme_id": "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte",
+            "scheme_name": "Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:exclusions:0",
+            "original_record_key": "scheme_13",
+            "excerpt": "\"Students receiving financial assistance from another organization cannot receive the AICTE scholarship during the period of such assistance; that period is deducted from the maximum scholarship duration.\" \"Foreign students are not eligible.\" \"Sponsored candidates are not eligible.\" \"Candidates admitted through management quota are not eligible.\" \"Passed-out students taking second-time admission after re-qualifying GATE/CEED who already received an AICTE or other centrally funded institution scholarship are not eligible.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-gate_criteria",
+        "session_id": "70a34289-8647-4895-aa2b-aba097ad2f43"
+      },
+      "latency_ms": 11236.349
+    },
+    {
+      "id": "indira_documents",
+      "question": "What documents are required for the Post Graduate Indira Gandhi Scholarship?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "For the Post Graduate Indira Gandhi Scholarship For Single Girl Child, the required documents depend on who submits them:\n\nDocuments to be submitted by the student include:\n- Aadhaar Card\n- Proof of admission into a recognized Master's degree course in an institute located in India and recognized by the UGC\n- Joining report as per Annexure-I\n- Affidavit regarding Single Girl Child status as per Annexure-II\n- Copy of the Bank Passbook\n- Birth Certificate or Class 10th Marksheet\n\nDocuments to be submitted by the institution include:\n- Progress Report after completion of the first year along with the percentage of marks obtained by the candidate\n- Funds Utilization Certificate after completion of the first year",
+        "sources": [
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:documents_required:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "\"submitted_by: student\" \"documents: Aadhaar Card\" \"documents: Proof of admission into a recognized Master's degree course in an institute located in India and recognized by the UGC\" \"documents: Joining report as per Annexure-I\" \"documents: Affidavit regarding Single Girl Child status as per Annexure-II\" \"documents: Copy of the Bank Passbook\" \"documents: Birth Certificate or Class 10th Marksheet\" \"submitted_by: institution\" \"documents: Progress Report after completion of the first year along with the percentage of marks obtained by the candidate\" \"documents: Funds Utilization Certificate after completion of the first year\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-indira_documents",
+        "session_id": "3d028f0d-9321-453b-8f35-07c7cf74f1b1"
+      },
+      "latency_ms": 6418.86
+    },
+    {
+      "id": "girls_discovery",
+      "question": "What scholarships are available for girl students?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "There are several scholarship schemes available that target girl students:\n\n* Pragati Scholarship Scheme For Girl Students (Technical Degree): This scheme is targeted towards girl students pursuing a technical degree.\n* Pragati Scholarship Scheme For Girl Students (Technical Diploma): This scheme is available for girl students pursuing a technical diploma.\n* Post Graduate Indira Gandhi Scholarship For Single Girl Child: This scholarship provides 3,000 fresh scholarships every year and requires applicants to upload an affidavit regarding their single girl child status and a joining report. The scholarship is paid annually through direct benefit transfer (DBT), and online applications must be verified by the host institution.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:target_groups:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "\"Girl Student\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:target_groups:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "\"Girl Student\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:selection:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "fresh scholarships per year: 3000 verification: \"Only verified online applications will be considered for the award of scholarship.\" institution verification: \"The host institution where the candidate is studying is required to verify the online application.\""
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:important_notes:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "\"An affidavit regarding Single Girl Child status may be uploaded as per the format given in Annexure-II.\" \"A joining report as per Annexure-I has to be uploaded.\" \"No other additional grant will be payable in lieu of hostel charges and medical charges, etc.\" \"The scheme provides 3,000 fresh scholarships every year.\" \"The scholarship is paid through DBT on an annual basis.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-girls_discovery",
+        "session_id": "5374aa98-48c9-4caf-a742-6bb7fd32dbb4"
+      },
+      "latency_ms": 5896.557
+    },
+    {
+      "id": "conversation",
+      "question": "How much does it provide?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "Both Pragati scholarship schemes, for technical diploma and technical degree courses, provide an annual amount of INR 50,000 as a lump sum. This financial assistance can be used for college fees, a computer, stationery, books, equipment, and software.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"3 years\" maximum duration second year lateral entry: \"2 years\" purpose: \"College fee\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\" additional hostel or medical grant: false"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000 maximum duration first year admission: \"4 years\" maximum duration second year lateral entry: \"3 years\" purpose: \"College fees\" purpose: \"Computer\" purpose: \"Stationery\" purpose: \"Books\" purpose: \"Equipment\" purpose: \"Software\" payment type: \"Lump sum\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-conversation",
+        "session_id": "01ad407c-22ed-4c98-9bb2-38a7973b2584"
+      },
+      "latency_ms": 5329.142
+    },
+    {
+      "id": "off_topic",
+      "question": "What is 1+2?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "1 + 2 is 3. If you have any questions about scholarships, please feel free to ask!",
+        "sources": [],
+        "status": "out_of_scope",
+        "error": null,
+        "request_id": "acceptance-off_topic",
+        "session_id": "5a93717b-ba6e-4786-8135-f6dec333a727"
+      },
+      "latency_ms": 3568.394
+    },
+    {
+      "id": "missing_deadline",
+      "question": "What is the exact deadline?",
+      "passed": false,
+      "checks": {
+        "status": true,
+        "expected_sources": false,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "The exact application deadline for the Pragati scholarship schemes is not specified in the available scholarship information. Please check the official National Scholarship Portal for deadline details.",
+        "sources": [],
+        "status": "insufficient_evidence",
+        "error": null,
+        "request_id": "acceptance-missing_deadline",
+        "session_id": "1619b764-28df-4f0a-9fbf-457336d077fc"
+      },
+      "latency_ms": 4095.968
+    },
+    {
+      "id": "unsupported_amount",
+      "question": "Does this scholarship provide \u20b910 lakh?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "No, the Pragati Scholarship schemes (both technical diploma and technical degree) do not provide \u20b910 lakh. Each scheme provides an annual amount of \u20b950,000 as a lump sum.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:benefits:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "amount annual inr: 50000"
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:benefits:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "amount annual inr: 50000"
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-unsupported_amount",
+        "session_id": "14a68278-83c9-41c4-968d-f7bb5351f0b4"
+      },
+      "latency_ms": 4817.58
+    },
+    {
+      "id": "income_contradiction",
+      "question": "What is the income limit for the Pre Matric Scholarship for Scheduled Tribe Students?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "Regarding the Pre Matric Scholarship for Scheduled Tribe Students, there is a discrepancy in the available information regarding the parental or guardian income limit. The details section states that income must not exceed 2.00 lakh rupees per annum, while the eligibility section states 2.50 lakh rupees per annum. You should verify this threshold with the appropriate official scholarship authority before applying.",
+        "sources": [
+          {
+            "scheme_id": "pre_matric_scholarship_for_scheduled_tribe_students",
+            "scheme_name": "Pre Matric Scholarship For Scheduled Tribe Students",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_scheduled_tribe_students:important_notes:0",
+            "original_record_key": "scheme_10",
+            "excerpt": "The Details section states parental/guardian income must not exceed \u20b92.00 lakh per annum, while the Eligibility section states \u20b92.50 lakh per annum."
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-income_contradiction",
+        "session_id": "cf1c97da-4909-49df-8bb8-b4fbf87a47d3"
+      },
+      "latency_ms": 7122.781
+    },
+    {
+      "id": "application_contradiction",
+      "question": "How do I apply for the Pre Matric Scholarship for Students with Disabilities?",
+      "passed": false,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": false,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "To apply for the Pre Matric Scholarship for Students with Disabilities, you can follow these steps:\n\n* Prepare soft copies of the required documents.\n* Register on the National Scholarships Portal (NSP).\n* Log in using your Application ID and password.\n* Complete the application form and upload your documents.\n* Save your application as a draft or submit the final version.\n\nPlease note that your institution must also register itself on the NSP and verify the details you provide.",
+        "sources": [
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:application:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarships Portal (NSP)\" steps: \"Prepare soft copies of required documents.\" steps: \"Register on the National Scholarships Portal.\" steps: \"Log in using the Application ID and password.\" steps: \"Complete the application form and upload documents.\" steps: \"Save as draft or submit the final application.\" institution requirement: \"The institution must register itself at NSP and verify the details provided by candidates.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-application_contradiction",
+        "session_id": "645c332c-fdf3-47b2-83ae-960f4fb902af"
+      },
+      "latency_ms": 4692.355
+    },
+    {
+      "id": "postgraduate_discovery",
+      "question": "Which scholarships are for postgraduate students?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "Based on the available information, the following scholarships are related to postgraduate or master's studies: \n\n* Post-Graduate Scholarships for Professional Courses for SC/ST Candidates\n* Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE\n* Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level\n* Post Graduate Indira Gandhi Scholarship For Single Girl Child, which tags master's degree and postgraduate studies.\n\nPlease verify these options with the official scholarship authorities for final eligibility and details.",
+        "sources": [
+          {
+            "scheme_id": "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates",
+            "scheme_name": "Post-Graduate Scholarships for Professional Courses for SC/ST Candidates",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates:documents_required:0",
+            "original_record_key": "scheme_2",
+            "excerpt": "\"Aadhaar Card\" \"Passport-size Photograph\" \"Proof of age\" \"Mark Sheets/Grade Cards & Degrees\" \"Caste certificate, if applicable\" \"Disability certificate, if applicable\" \"Other required documents\""
+          },
+          {
+            "scheme_id": "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte",
+            "scheme_name": "Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_scholarship_scheme_for_gate_gpat_qualified_students_aicte:documents_required:0",
+            "original_record_key": "scheme_13",
+            "excerpt": "\"Aadhaar Card\" \"Passport-size photograph\" \"Proof of age\" \"Mark sheets/Grade Cards and degrees\" \"GATE/CEED scorecard\" \"Caste certificate, if applicable\" \"Disability certificate, if applicable\" \"Income certificate, if applicable\" \"Eligible bank account details\" \"Any other required document\""
+          },
+          {
+            "scheme_id": "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level",
+            "scheme_name": "Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:benefits:0",
+            "original_record_key": "scheme_12",
+            "excerpt": "amount: \"\u20b92,000 per month\" duration: \"2 years\" months per year: 10 additional grants: \"No additional grants for hostel or medical charges.\" scholarship count / general courses: 1800 scholarship count / honours courses: 575"
+          },
+          {
+            "scheme_id": "post_graduate_indira_gandhi_scholarship_for_single_girl_child",
+            "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+            "source_name": "MyScheme",
+            "source_url": null,
+            "retrieved_from": "post_graduate_indira_gandhi_scholarship_for_single_girl_child:tags:0",
+            "original_record_key": "scheme_1",
+            "excerpt": "\"girl child\" \"single girl child\" \"postgraduate\" \"master's degree\" \"scholarship\" \"UGC\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-postgraduate_discovery",
+        "session_id": "6ae4f934-f27e-48fe-9192-e33dcce78f79"
+      },
+      "latency_ms": 5422.437
+    },
+    {
+      "id": "sc_st_discovery",
+      "question": "What scholarships are available for SC/ST students?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "Several scholarships are available for Scheduled Caste (SC) and Scheduled Tribe (ST) students based on the available information:\n\n1. Post-Graduate Scholarships for Professional Courses for SC/ST Candidates: This scheme is targeted toward SC and ST students. Applications are submitted online through the National Scholarship Portal with institutional verification, and payments are made via Direct Benefit Transfer.\n\n2. ICAR - Post Matric Scholarship For Scheduled Caste / Scheduled Tribes Candidates: This scholarship supports Scheduled Caste and Scheduled Tribe students pursuing undergraduate degrees in Agriculture and Allied Sciences.\n\n3. Pre Matric Scholarship For Scheduled Tribe Students: This scheme is for Scheduled Tribe pre-matric students. Note that there is an income threshold discrepancy in the available details, stating either \u20b92.00 lakh or \u20b92.50 lakh per annum, which should be verified with the official authority.",
+        "sources": [
+          {
+            "scheme_id": "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates",
+            "scheme_name": "Post-Graduate Scholarships for Professional Courses for SC/ST Candidates",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates:target_groups:0",
+            "original_record_key": "scheme_2",
+            "excerpt": "\"SC\" \"ST\""
+          },
+          {
+            "scheme_id": "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates",
+            "scheme_name": "Post-Graduate Scholarships for Professional Courses for SC/ST Candidates",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_scholarships_for_professional_courses_for_sc_st_candidates:application:0",
+            "original_record_key": "scheme_2",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" institution verification required: true payment mode: \"Direct Benefit Transfer (DBT)\""
+          },
+          {
+            "scheme_id": "icar_post_matric_scholarship_for_scheduled_caste_scheduled_tribes_candidates",
+            "scheme_name": "ICAR - Post Matric Scholarship For Scheduled Caste / Scheduled Tribes Candidates",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "icar_post_matric_scholarship_for_scheduled_caste_scheduled_tribes_candidates:target_groups:0",
+            "original_record_key": "scheme_17",
+            "excerpt": "\"Scheduled Caste students\" \"Scheduled Tribe students\" \"Students pursuing Agriculture and Allied Sciences undergraduate degrees\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_scheduled_tribe_students",
+            "scheme_name": "Pre Matric Scholarship For Scheduled Tribe Students",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_scheduled_tribe_students:target_groups:0",
+            "original_record_key": "scheme_10",
+            "excerpt": "\"Scheduled Tribe students\" \"Pre-matric students\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_scheduled_tribe_students",
+            "scheme_name": "Pre Matric Scholarship For Scheduled Tribe Students",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_scheduled_tribe_students:important_notes:0",
+            "original_record_key": "scheme_10",
+            "excerpt": "\"The Details section states parental/guardian income must not exceed \u20b92.00 lakh per annum, while the Eligibility section states \u20b92.50 lakh per annum. This discrepancy must be verified before using the income threshold in the eligibility engine.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-sc_st_discovery",
+        "session_id": "4d991609-6815-4a92-b310-2ab671f613e3"
+      },
+      "latency_ms": 8497.838
+    },
+    {
+      "id": "phd_discovery",
+      "question": "Which scholarships support PhD students?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "Based on the available information, the Scholarship for Ph.D. Students of Socially and Educationally Backward Classes supports PhD students, providing scholarship assistance of \u20b91,00,000 for PhD studies.",
+        "sources": [
+          {
+            "scheme_id": "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes",
+            "scheme_name": "Scholarship for Ph.D. Students of Socially and Educationally Backward Classes",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "scholarship_for_ph_d_students_of_socially_and_educationally_backward_classes:benefits:0",
+            "original_record_key": "scheme_14",
+            "excerpt": "scholarship assistance / MPhil: \"\u20b925,000\" scholarship assistance / PhD: \"\u20b91,00,000\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-phd_discovery",
+        "session_id": "3486d12d-8038-4567-96c8-b80002b180ea"
+      },
+      "latency_ms": 6417.645
+    },
+    {
+      "id": "monthly_discovery",
+      "question": "What scholarships provide monthly financial assistance?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "Based on the available information, the following scholarships provide monthly financial assistance: \n\n* Pre Matric Scholarship For Students With Disabilities: Provides a maintenance allowance for 12 months in an academic year, with a monthly amount of \u20b9500 for day scholars and \u20b9800 for hostellers.\n* National Means-cum-Merit Scholarship Scheme: Provides a monthly amount of \u20b91,000.\n* Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level: Provides \u20b92,000 per month for a duration of 2 years (10 months per year).",
+        "sources": [
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:benefits:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "maintenance allowance / duration months: 12 maintenance allowance / day scholar / monthly amount inr: 500 maintenance allowance / hosteller / monthly amount inr: 800"
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:important_notes:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "Maintenance allowance marked with (*) is provided for 12 months in an academic year."
+          },
+          {
+            "scheme_id": "national_means_cum_merit_scholarship_scheme",
+            "scheme_name": "National Means-cum-Merit Scholarship Scheme",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "national_means_cum_merit_scholarship_scheme:benefits:0",
+            "original_record_key": "scheme_18",
+            "excerpt": "monthly amount inr: 1000"
+          },
+          {
+            "scheme_id": "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level",
+            "scheme_name": "Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_graduate_merit_scholarship_scheme_for_university_rank_holders_at_under_graduate_level:benefits:0",
+            "original_record_key": "scheme_12",
+            "excerpt": "amount: \"\u20b92,000 per month\" duration: \"2 years\" months per year: 10"
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-monthly_discovery",
+        "session_id": "59fd2234-d836-4bc3-95ba-4bc3f016831c"
+      },
+      "latency_ms": 5125.947
+    },
+    {
+      "id": "disability_discovery",
+      "question": "Tell me about scholarships for students with disabilities.",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "There are multiple scholarship schemes available for students with disabilities, depending on their level of education. \n\nPre Matric Scholarship For Students With Disabilities\nThis scheme is targeted at pre-matric students with disabilities. Its objective is to support students with disabilities in continuing their education, developing skills for livelihood, and improving their ability to live with dignity despite physical, financial, psychological, and other barriers. The scheme covers specified disabilities under the Rights of Persons with Disabilities Act, 2016. Required documents typically include a photograph, proof of age, a certificate of disability issued by the competent authority, an income certificate, a tuition fee receipt, the last academic qualification certificate, and bank details of the applicant or parent/guardian. Note that there is an interesting detail regarding its application: the source states the scheme is implemented offline by DEPwD, while the application process section specifies online application through NSP.\n\nPost Matric Scholarship Students With Disabilities\nThis scheme is intended for post-matric students, supporting them in pursuing further education, preparing for livelihood, and finding a dignified place in society. It covers students with specified disabilities defined in the Schedule of the Rights of Persons with Disabilities Act, 2016. Required documents include a photograph, proof of age, a certificate of disability under the Rights of Persons with Disabilities Act, 2016, an income certificate, a tuition fee receipt, the last academic qualification certificate, and bank details of the applicant or parent/guardian. Similar to the pre-matric scheme, the source notes that the scheme is implemented offline by DEPwD, while its application process section specifies online application through NSP.",
+        "sources": [
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:target_groups:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "\"Students with Disabilities\" \"Pre-matric students\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:objective:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "\"To support students with disabilities in continuing their education, developing skills for livelihood and improving their ability to live with dignity despite physical, financial, psychological and other barriers.\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:important_notes:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "\"The source states that the specified disabilities under the Rights of Persons with Disabilities Act, 2016 are covered.\" \"The source states that the scheme is implemented offline by DEPwD, while the Application Process section specifies online application through NSP. This implementation wording should be reviewed if used in the final system.\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:documents_required:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "\"Photograph\" \"Proof of Age\" \"Certificate of Disability issued by the competent authority\" \"Income Certificate\" \"Tuition Fee Receipt\" \"Last academic qualification certificate\" \"Bank details of the applicant or Parent/Guardian\""
+          },
+          {
+            "scheme_id": "post_matric_scholarship_students_with_disabilities",
+            "scheme_name": "Post Matric Scholarship Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_matric_scholarship_students_with_disabilities:target_groups:0",
+            "original_record_key": "scheme_5",
+            "excerpt": "\"Students with Disabilities\" \"Post-matric students\""
+          },
+          {
+            "scheme_id": "post_matric_scholarship_students_with_disabilities",
+            "scheme_name": "Post Matric Scholarship Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_matric_scholarship_students_with_disabilities:objective:0",
+            "original_record_key": "scheme_5",
+            "excerpt": "\"To support students with disabilities in pursuing further education, preparing for livelihood and finding a dignified place in society.\""
+          },
+          {
+            "scheme_id": "post_matric_scholarship_students_with_disabilities",
+            "scheme_name": "Post Matric Scholarship Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_matric_scholarship_students_with_disabilities:important_notes:0",
+            "original_record_key": "scheme_5",
+            "excerpt": "\"The supplied source states that the scheme is for students with specified disabilities defined in the Schedule of the Rights of Persons with Disabilities Act, 2016.\" \"The supplied source contains the statement that the scheme is implemented offline by DEPwD, while its Application Process section specifies online application through NSP. This wording should be reviewed before using it as a final implementation rule.\""
+          },
+          {
+            "scheme_id": "post_matric_scholarship_students_with_disabilities",
+            "scheme_name": "Post Matric Scholarship Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "post_matric_scholarship_students_with_disabilities:documents_required:0",
+            "original_record_key": "scheme_5",
+            "excerpt": "\"Photograph\" \"Proof of Age\" \"Certificate of Disability under the Rights of Persons with Disabilities Act, 2016\" \"Income Certificate\" \"Tuition Fee Receipt\" \"Last academic qualification certificate\" \"Bank details of the applicant or Parent/Guardian\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-disability_discovery",
+        "session_id": "325435b6-ee33-4d47-af95-6eef3e2ac852"
+      },
+      "latency_ms": 7693.724
+    }
+  ],
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "limitations": "Live source checks, factual spot checks, and model grounding review are not a proof that every paraphrase is correct. No official eligibility decisions are made.",
+  "passed": 14,
+  "total": 16,
+  "latency_ms": {
+    "p50": 5659.497,
+    "p95": 14903.897,
+    "p99": 23706.01
+  },
+  "elapsed_seconds": 502.461
+}

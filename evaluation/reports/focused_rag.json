@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-01T08:57:49.061436+00:00",
+  "corpus_sha256": "805a64250c4e33f7d6e116d40cc2b054cb557fe6a69a6314d179a300929042ea",
+  "index": {
+    "ready": true,
+    "version": "faac7d4df3034bafae61db8e52553481",
+    "chunks": 139,
+    "reason": null
+  },
+  "mode": "live_rag",
+  "results": [
+    {
+      "id": "missing_deadline",
+      "question": "What is the exact deadline?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "The available scholarship information for both the Pragati Scholarship Scheme For Girl Students (Technical Degree) and the Pragati Scholarship Scheme For Girl Students (Technical Diploma) does not specify an exact application deadline. Please check with the official scholarship authority or the National Scholarship Portal (NSP) to verify current dates.",
+        "sources": [
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_degree",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_degree:application:0",
+            "original_record_key": "scheme_6",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          },
+          {
+            "scheme_id": "pragati_scholarship_scheme_for_girl_students_technical_diploma",
+            "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pragati_scholarship_scheme_for_girl_students_technical_diploma:application:0",
+            "original_record_key": "scheme_7",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarship Portal (NSP)\" payment status: \"Trackable through PFMS\""
+          }
+        ],
+        "status": "insufficient_evidence",
+        "error": null,
+        "request_id": "acceptance-missing_deadline",
+        "session_id": "88ece082-6055-4b54-8d17-b8d7687454ad"
+      },
+      "latency_ms": 5401.116
+    },
+    {
+      "id": "application_contradiction",
+      "question": "How do I apply for the Pre Matric Scholarship for Students with Disabilities?",
+      "passed": true,
+      "checks": {
+        "status": true,
+        "expected_sources": true,
+        "source_count": true,
+        "no_irrelevant_off_topic_sources": true,
+        "evidence_traceable": true,
+        "expected_facts": true,
+        "setup_success": true
+      },
+      "response": {
+        "answer": "To apply for the Pre Matric Scholarship for Students with Disabilities, please note that the available source information contains conflicting details regarding the application procedure. While the application section states that applications are submitted online through the National Scholarships Portal (NSP), the important notes section points out that the scheme is implemented offline by the Department of Empowerment of Persons with Disabilities (DEPwD), creating an inconsistency in the implementation wording. Because of this conflicting information, it is recommended that you verify the current application procedure with the official scholarship authority before proceeding. \n\nIf following the online process indicated in the application steps, the procedure generally involves:\n\nPrepare soft copies of your required documents.\nRegister on the National Scholarships Portal.\nLog in using your Application ID and password.\nComplete the application form and upload your documents.\nSave your application as a draft or submit the final version.\n\nAdditionally, your educational institution must register itself at the NSP and verify the details you provide.",
+        "sources": [
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:application:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "mode: \"Online\" portal: \"National Scholarships Portal (NSP)\" steps: \"Prepare soft copies of required documents.\" steps: \"Register on the National Scholarships Portal.\" steps: \"Log in using the Application ID and password.\" steps: \"Complete the application form and upload documents.\" steps: \"Save as draft or submit the final application.\" institution requirement: \"The institution must register itself at NSP and verify the details provided by candidates.\""
+          },
+          {
+            "scheme_id": "pre_matric_scholarship_for_students_with_disabilities",
+            "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+            "source_name": null,
+            "source_url": null,
+            "retrieved_from": "pre_matric_scholarship_for_students_with_disabilities:important_notes:0",
+            "original_record_key": "scheme_8",
+            "excerpt": "\"The source states that the scheme is implemented offline by DEPwD, while the Application Process section specifies online application through NSP. This implementation wording should be reviewed if used in the final system.\""
+          }
+        ],
+        "status": "success",
+        "error": null,
+        "request_id": "acceptance-application_contradiction",
+        "session_id": "c2d90021-4859-4bfb-9a23-7949a5407f6f"
+      },
+      "latency_ms": 5288.302
+    }
+  ],
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "limitations": "Live source checks, factual spot checks, and model grounding review are not a proof that every paraphrase is correct. No official eligibility decisions are made.",
+  "passed": 2,
+  "total": 2,
+  "latency_ms": {
+    "p50": 5344.709,
+    "p95": 5395.475,
+    "p99": 5399.988
+  },
+  "elapsed_seconds": 68.168
+}

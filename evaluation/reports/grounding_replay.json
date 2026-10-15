@@ -1,0 +1,86 @@
+{
+  "verified_at": "2026-10-01T11:04:07.668068+00:00",
+  "passed": 14,
+  "total": 14,
+  "mode": "saved_real_response_validation",
+  "results": [
+    {
+      "id": "demo_pragati_benefits",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_amount",
+      "passed": true,
+      "source_report": "demo_focused.json"
+    },
+    {
+      "id": "demo_saksham_documents",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_yasasvi_eligibility",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_pragati_apply",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_apply_followup",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_girls",
+      "passed": true,
+      "source_report": "demo_focused.json"
+    },
+    {
+      "id": "demo_compare",
+      "passed": true,
+      "source_report": "demo_focused.json"
+    },
+    {
+      "id": "demo_math",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_cricket",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_code",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_deadline",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_ambiguous",
+      "passed": true,
+      "source_report": "demo_live.json"
+    },
+    {
+      "id": "demo_saksham_steps",
+      "passed": true,
+      "source_report": "demo_live.json"
+    }
+  ],
+  "checks": [
+    "JSON schema",
+    "source reference membership",
+    "exact contiguous excerpts",
+    "URL provenance",
+    "normalized numeric evidence"
+  ],
+  "limitations": "Replaying real answers through deterministic validation is not a new live run or a proof of all semantic claims."
+}

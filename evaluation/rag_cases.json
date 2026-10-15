@@ -1,0 +1,201 @@
+[
+  {
+    "id": "pragati_overview",
+    "question": "What is the Pragati Scholarship?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "Pragati"
+    ]
+  },
+  {
+    "id": "pragati_amount",
+    "question": "How much does Pragati provide?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "50[, ]?000|50 thousand|fifty thousand",
+      "year|annual|annum"
+    ]
+  },
+  {
+    "id": "gate_criteria",
+    "question": "Who is eligible for the GATE/GPAT scholarship?",
+    "status": [
+      "success"
+    ],
+    "prefix": "post_graduate_scholarship_scheme_for_gate",
+    "patterns": [
+      "GATE",
+      "CEED",
+      "full.?time",
+      "AICTE"
+    ]
+  },
+  {
+    "id": "indira_documents",
+    "question": "What documents are required for the Post Graduate Indira Gandhi Scholarship?",
+    "status": [
+      "success"
+    ],
+    "prefix": "post_graduate_indira",
+    "patterns": [
+      "Aadhaar",
+      "affidavit",
+      "joining",
+      "bank"
+    ]
+  },
+  {
+    "id": "girls_discovery",
+    "question": "What scholarships are available for girl students?",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "Pragati"
+    ]
+  },
+  {
+    "id": "conversation",
+    "prepare": "Tell me about Pragati.",
+    "question": "How much does it provide?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "50[, ]?000|50 thousand|fifty thousand"
+    ]
+  },
+  {
+    "id": "off_topic",
+    "question": "What is 1+2?",
+    "status": [
+      "out_of_scope"
+    ],
+    "no_sources": true,
+    "patterns": [
+      "scholarship"
+    ],
+    "max_llm_calls": 0,
+    "forbidden_patterns": [
+      "1\\s*\\+\\s*2\\s*=",
+      "equals?\\s+3"
+    ]
+  },
+  {
+    "id": "missing_deadline",
+    "prepare": "Tell me about Pragati.",
+    "question": "What is the exact deadline?",
+    "status": [
+      "insufficient_evidence"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "not specif|does not specif|not provid|does not provid|not mention|no .{0,30}deadline|isn.t .{0,25}(available|specified)|doesn.t .{0,20}(specify|include)|not available|not include"
+    ]
+  },
+  {
+    "id": "unsupported_amount",
+    "prepare": "Tell me about Pragati.",
+    "question": "Does this scholarship provide \u20b910 lakh?",
+    "status": [
+      "success",
+      "insufficient_evidence"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "50[, ]?000|50 thousand|fifty thousand",
+      "\\bno\\b|not|doesn.t|isn.t|unsupported"
+    ]
+  },
+  {
+    "id": "income_contradiction",
+    "question": "What is the income limit for the Pre Matric Scholarship for Scheduled Tribe Students?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pre_matric_scholarship_for_scheduled_tribe_students",
+    "patterns": [
+      "2[.,]0*\\s*lakh|2[, ]?00[, ]?000|200000",
+      "2[.,]50*\\s*lakh|2[, ]?50[, ]?000|250000",
+      "conflict|inconsisten|contradict|discrepanc"
+    ]
+  },
+  {
+    "id": "application_contradiction",
+    "question": "How do I apply for the Pre Matric Scholarship for Students with Disabilities?",
+    "status": [
+      "success",
+      "insufficient_evidence"
+    ],
+    "prefix": "pre_matric_scholarship_for_students_with_disabilities",
+    "patterns": [
+      "offline",
+      "online",
+      "conflict|inconsisten|contradict|discrepanc"
+    ]
+  },
+  {
+    "id": "postgraduate_discovery",
+    "question": "Which scholarships are for postgraduate students?",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "postgraduate|post.graduate|master"
+    ]
+  },
+  {
+    "id": "sc_st_discovery",
+    "question": "What scholarships are available for SC/ST students?",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "SC|Scheduled Caste",
+      "ST|Scheduled Tribe"
+    ]
+  },
+  {
+    "id": "phd_discovery",
+    "question": "Which scholarships support PhD students?",
+    "status": [
+      "success"
+    ],
+    "prefix": "scholarship_for_ph_d",
+    "patterns": [
+      "Ph\\.?D\\.?"
+    ]
+  },
+  {
+    "id": "monthly_discovery",
+    "question": "What scholarships provide monthly financial assistance?",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "month"
+    ]
+  },
+  {
+    "id": "disability_discovery",
+    "question": "Tell me about scholarships for students with disabilities.",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "disabil|Saksham"
+    ]
+  }
+]

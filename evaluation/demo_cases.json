@@ -1,0 +1,190 @@
+[
+  {
+    "id": "demo_pragati_benefits",
+    "question": "What are the benefits of Pragati?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "50[, ]?000|50 thousand",
+      "annual|year|annum"
+    ],
+    "max_llm_calls": 1
+  },
+  {
+    "id": "demo_amount",
+    "question": "How much does Pragati provide?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "50[, ]?000|50 thousand",
+      "annual|year|annum"
+    ],
+    "max_llm_calls": 1
+  },
+  {
+    "id": "demo_saksham_documents",
+    "question": "What documents are required for Saksham?",
+    "status": [
+      "success"
+    ],
+    "prefix": "aicte_saksham",
+    "patterns": [
+      "Aadhaar",
+      "income",
+      "certificate"
+    ],
+    "max_llm_calls": 1
+  },
+  {
+    "id": "demo_yasasvi_eligibility",
+    "question": "Who is eligible for the PM-YASASVI scheme?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pm_yasasvi",
+    "patterns": [
+      "OBC",
+      "EBC",
+      "DNT",
+      "2.?5\\s*lakh|250[, ]?000|2[, ]?50[, ]?000"
+    ]
+  },
+  {
+    "id": "demo_pragati_apply",
+    "question": "How do I apply for Pragati?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "NSP|National Scholarship Portal",
+      "online"
+    ],
+    "max_llm_calls": 1
+  },
+  {
+    "id": "demo_apply_followup",
+    "prepare": "Tell me about Pragati.",
+    "question": "How can I apply for the scholarship?",
+    "status": [
+      "success"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "NSP|National Scholarship Portal"
+    ],
+    "max_llm_calls": 1
+  },
+  {
+    "id": "demo_girls",
+    "question": "Which schemes are available for girl students?",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "Pragati"
+    ]
+  },
+  {
+    "id": "demo_compare",
+    "question": "Compare Pragati and Saksham.",
+    "status": [
+      "success"
+    ],
+    "min_schemes": 2,
+    "patterns": [
+      "Pragati",
+      "Saksham",
+      "girl|female",
+      "disabil|abled",
+      "50[, ]?000|50 thousand",
+      "8\\s*lakh|8[, ]?00[, ]?000|800[, ]?000"
+    ],
+    "forbidden_patterns": [
+      "8[, ]?000[, ]?000",
+      "80\\s*lakh"
+    ]
+  },
+  {
+    "id": "demo_math",
+    "question": "What is 1+1?",
+    "status": [
+      "out_of_scope"
+    ],
+    "no_sources": true,
+    "patterns": [
+      "scholarship"
+    ],
+    "max_llm_calls": 0,
+    "forbidden_patterns": [
+      "=\\s*2",
+      "equals?\\s+2"
+    ]
+  },
+  {
+    "id": "demo_cricket",
+    "question": "Who won yesterday's cricket match?",
+    "status": [
+      "out_of_scope"
+    ],
+    "no_sources": true,
+    "patterns": [
+      "scholarship"
+    ],
+    "max_llm_calls": 0
+  },
+  {
+    "id": "demo_code",
+    "question": "Write a Python program.",
+    "status": [
+      "out_of_scope"
+    ],
+    "no_sources": true,
+    "patterns": [
+      "scholarship"
+    ],
+    "max_llm_calls": 0
+  },
+  {
+    "id": "demo_deadline",
+    "question": "What is the deadline for Pragati?",
+    "status": [
+      "insufficient_evidence"
+    ],
+    "prefix": "pragati_",
+    "patterns": [
+      "not|doesn.t|no deadline"
+    ]
+  },
+  {
+    "id": "demo_ambiguous",
+    "question": "Which scholarship should I apply for?",
+    "status": [
+      "insufficient_evidence"
+    ],
+    "patterns": [
+      "level|undergraduate|postgraduate|category|studying|course|education"
+    ],
+    "max_llm_calls": 1
+  },
+  {
+    "id": "demo_saksham_steps",
+    "question": "How do I apply for Saksham?",
+    "status": [
+      "success"
+    ],
+    "prefix": "aicte_saksham",
+    "patterns": [
+      "registration|register",
+      "log.?in",
+      "upload",
+      "submit"
+    ],
+    "max_llm_calls": 1
+  }
+]
